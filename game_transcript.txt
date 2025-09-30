@@ -1,0 +1,3633 @@
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Lumberjack (w3), Shepherd (w5), Ship Builder (w7), Czar and Carpenter (w8)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Lumberjack (w3), Shepherd (w5), Ship Builder (w7), Czar and Carpenter (w8)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+> Player 1 buys Lumberjack from the upper card row for 3 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    25 (0, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Czar and Carpenter (w8)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: 
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Czar and Carpenter from the upper card row for 8 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    17 (3, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8)
+Buildings: 
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    17 (3, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8)
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Shepherd from the upper card row for 5 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    12 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 adds Ship Builder to their hand from the upper card row.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    12 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: Ship Builder (w7)
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    22 (3, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    12 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: Ship Builder (w7)
+Workers: Lumberjack (w3)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 buys Ship Builder from their hand for 7 rubles.
+
+Round: 1, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    15 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    12 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    15 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    12 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 28, Aristocrat: 27, Trading: 30
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Theater (b20), Library (b17), Theater (b20), Market (b5), Hospital (b14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: 
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 adds Theater to their hand from the upper card row.
+
+Round: 1, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Theater (b20), Market (b5), Hospital (b14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 27, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Theater (b20), Market (b5), Hospital (b14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Theater (b20), Market (b5), Hospital (b14), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: 
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 adds Hospital to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Theater (b20), Market (b5), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 adds Controller to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 0, 0)	    21 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Theater (b20), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: 
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 buys Theater from the upper card row for 20 rubles.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Library (b17), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 adds Library to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Library (b17)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 0, 0)	    18 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Library (b17)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: 
+Aristocrats: 
+
+> Player 2 buys Library from their hand for 17 rubles.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8), Market (b5)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 1 adds Market to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Customs House (b8), Academy (b23), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 2 adds Customs House to their hand from the upper card row.
+
+Round: 1, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Academy (b23), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 1, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 30
+
+Upper Card Row: Academy (b23), Customs House (b8)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 6, 0)	     1 (6, 0, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Academy (b23), Customs House (b8), Catherine the Great Palace (tb17c), Patriarch (ta14), Admiral (ta18), Church of the Resurrection of Jesus Christ (tb16c), Weaving Mill (tw8), Fur Shop (tw10)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Theater (b20)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 1 buys Church of the Resurrection of Jesus Christ from the upper card row for 1 ruble replacing Theater.
+
+Round: 1, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     1 (6, 0, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Academy (b23), Customs House (b8), Catherine the Great Palace (tb17c), Patriarch (ta14), Admiral (ta18), Weaving Mill (tw8), Fur Shop (tw10)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Library (b17)
+Aristocrats: 
+
+> Player 2 buys Catherine the Great Palace from the upper card row for 1 ruble replacing Library.
+
+Round: 1, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     0 (6, 1, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Admiral (ta18), Weaving Mill (tw8), Fur Shop (tw10)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 adds Admiral to their hand from the upper card row.
+
+Round: 1, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     0 (6, 1, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 1, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     0 (0, 5, 0)	     0 (6, 1, 0)	          0	Worker, Building
+Deck Sizes: Worker: 27, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+Lower Card Row: 
+
+Player 1:
+Hand: Hospital (b14), Market (b5), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Worker, Building
+     2	     0 (0, 5, 0)	     0 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+
+Player 1:
+Hand: Hospital (b14), Market (b5), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     0 (6, 2, 0)	          0	Worker, Building
+     2	     0 (0, 5, 0)	     0 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+
+Player 1:
+Hand: Hospital (b14), Market (b5), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 4, 0)	     6 (6, 2, 0)	          0	Worker, Building
+     2	     0 (0, 5, 0)	     6 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+
+Player 1:
+Hand: Hospital (b14), Market (b5), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 buys Market from their hand for 5 rubles.
+
+Round: 2, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 5, 0)	     1 (6, 2, 0)	          0	Worker, Building
+     2	     0 (0, 5, 0)	     6 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8), Fur Shop (tw10)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Czar and Carpenter (w8), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 buys Fur Shop from the lower card row for 1 ruble replacing Czar and Carpenter.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 5, 0)	     1 (6, 2, 0)	          0	Worker, Building
+     2	     0 (2, 5, 0)	     5 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14), Weaving Mill (tw8)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 adds Weaving Mill to their hand from the lower card row.
+
+Round: 2, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 5, 0)	     1 (6, 2, 0)	          0	Worker, Building
+     2	     0 (2, 5, 0)	     5 (6, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Lumberjack (w3), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 buys Lumberjack from the upper card row for 3 rubles.
+
+Round: 2, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 5, 0)	     1 (6, 2, 0)	          0	Worker, Building
+     2	     0 (2, 5, 0)	     2 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     0 (0, 5, 0)	     1 (6, 2, 0)	          0	Worker, Building
+     2	     0 (2, 5, 0)	     2 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 26, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 2, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Worker, Building
+     2	     5 (2, 5, 0)	     3 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Author (a4)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 2, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Worker, Building
+     2	     5 (2, 5, 0)	     3 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Author (a4)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 2, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Worker, Building
+     2	     5 (2, 5, 0)	     3 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Author (a4)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 passes.
+
+Round: 2, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Worker, Building
+     2	     5 (2, 5, 0)	     3 (9, 1, 0)	          0	Aristocrat, Trading
+Deck Sizes: Worker: 24, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Author (a4)
+Lower Card Row: Academy (b23), Customs House (b8), Patriarch (ta14)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 1 passes.
+
+Round: 3, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     5 (2, 5, 0)	     3 (9, 1, 0)	          0	Worker, Building
+Deck Sizes: Worker: 21, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Author (a4)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: 
+
+> Player 2 buys Author from the lower card row for 3 rubles.
+
+Round: 3, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     5 (2, 5, 0)	     0 (9, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 3, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     3 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     5 (2, 5, 0)	     0 (9, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 20, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     9 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     7 (2, 5, 0)	     9 (9, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Potjomkin's Village (bpo)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 buys Gold Miner from the upper card row for 4 rubles.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     9 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     7 (2, 5, 0)	     5 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Potjomkin's Village (bpo)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 buys Potjomkin's Village from the upper card row for 2 rubles.
+
+Round: 3, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     7 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     7 (2, 5, 0)	     5 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 3, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	     5 (0, 5, 0)	     7 (6, 2, 0)	          0	Aristocrat, Trading
+     2	     7 (2, 5, 0)	     5 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 23, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 3, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     9 (6, 2, 0)	          0	Aristocrat, Trading
+     2	    12 (2, 5, 0)	     6 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 21, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Fur Trapper (w6), Warehouse Manager (a10), Secretary (a12)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 buys Fur Trapper from the upper card row for 6 rubles.
+
+Round: 3, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Aristocrat, Trading
+     2	    12 (2, 5, 0)	     6 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 21, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 3, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Aristocrat, Trading
+     2	    12 (2, 5, 0)	     6 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 21, Trading: 24
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 3, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Aristocrat, Trading
+     2	    12 (2, 5, 0)	     7 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Harbor (tb16h)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 3, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Aristocrat, Trading
+     2	    12 (2, 5, 0)	     7 (12, 1, 1)	          1	Worker, Building
+Deck Sizes: Worker: 21, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Harbor (tb16h)
+Lower Card Row: Shepherd (w5), Ship Builder (w7), Warehouse Manager (a10), Secretary (a12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 4, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Worker, Building
+     2	    12 (2, 5, 0)	     7 (12, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 4, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 0)	          0	Worker, Building
+     2	    12 (2, 5, 0)	     7 (12, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	    12 (9, 2, 0)	          0	Worker, Building
+     2	    14 (2, 5, 0)	    19 (12, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: 
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 buys Warehouse Manager from the lower card row for 9 rubles.
+
+Round: 4, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	    19 (12, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 buys Ship Builder from the lower card row for 6 rubles.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	    13 (15, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 4, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	    13 (15, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 buys Fur Trapper from the upper card row for 6 rubles.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     3 (9, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	     7 (18, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Lumberjack (w3)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 buys Lumberjack from the upper card row for 2 rubles.
+
+Round: 4, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     1 (12, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	     7 (18, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 passes.
+
+Round: 4, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    10 (0, 5, 0)	     1 (12, 2, 3)	          1	Worker, Building
+     2	    14 (2, 5, 0)	     7 (18, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 21, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 1 passes.
+
+Round: 4, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     3 (12, 2, 3)	          1	Worker, Building
+     2	    19 (2, 5, 0)	     8 (18, 1, 1)	          1	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Author (a4), Warehouse Manager (a10), Judge (a16), Administrator (a7)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4)
+
+> Player 2 buys Administrator from the upper card row for 7 rubles.
+
+Round: 4, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     3 (12, 2, 3)	          1	Worker, Building
+     2	    19 (2, 5, 0)	     1 (18, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Author (a4), Warehouse Manager (a10), Judge (a16)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 4, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     3 (12, 2, 3)	          1	Worker, Building
+     2	    19 (2, 5, 0)	     1 (18, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 23
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Author (a4), Warehouse Manager (a10), Judge (a16)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 4, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     6 (12, 2, 3)	          1	Worker, Building
+     2	    19 (2, 5, 0)	     4 (18, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Author (a4), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 4, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     6 (12, 2, 3)	          1	Worker, Building
+     2	    19 (2, 5, 0)	     4 (18, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Author (a4), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Author from the upper card row for 4 rubles.
+
+Round: 4, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     2 (12, 2, 4)	          2	Worker, Building
+     2	    19 (2, 5, 0)	     4 (18, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Ship Builder (w7), Gold Miner (w4), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 buys Gold Miner from the upper card row for 3 rubles.
+
+Round: 4, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     2 (12, 2, 4)	          2	Worker, Building
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 4, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     2 (12, 2, 4)	          2	Worker, Building
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 17, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+Lower Card Row: Secretary (a12), Harbor (tb16h)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     2 (12, 2, 4)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     2 (12, 2, 4)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6), Lumberjack (w3)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Lumberjack from the upper card row for 1 ruble.
+
+Round: 5, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     1 (15, 2, 4)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 0)	     1 (15, 2, 4)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16), Senator (ta12)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Warehouse Manager (a10), Author (a4)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Senator from the lower card row for 1 ruble replacing Warehouse Manager.
+
+Round: 5, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     0 (15, 2, 3)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     0 (15, 2, 3)	          2	Aristocrat, Trading
+     2	    19 (2, 5, 0)	     1 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 19, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	    15 (15, 2, 3)	          2	Aristocrat, Trading
+     2	    21 (2, 5, 0)	    22 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12)
+
+Player 2:
+Hand: Theater (b20), Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 buys Theater from their hand for 20 rubles.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	    15 (15, 2, 3)	          2	Aristocrat, Trading
+     2	    21 (2, 11, 0)	     2 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Warehouse Manager (a10), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Warehouse Manager from the lower card row for 9 rubles.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     6 (15, 2, 6)	          3	Aristocrat, Trading
+     2	    21 (2, 11, 0)	     2 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Shepherd (w5), Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 adds Shepherd to their hand from the upper card row.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     6 (15, 2, 6)	          3	Aristocrat, Trading
+     2	    21 (2, 11, 0)	     2 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Fur Trapper from the upper card row for 5 rubles.
+
+Round: 5, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     1 (18, 2, 6)	          3	Aristocrat, Trading
+     2	    21 (2, 11, 0)	     2 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    15 (0, 5, 2)	     1 (18, 2, 6)	          3	Aristocrat, Trading
+     2	    21 (2, 11, 0)	     2 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 17, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 5, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    20 (0, 5, 2)	     3 (18, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     3 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 5, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    20 (0, 5, 2)	     3 (18, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     3 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     9 (18, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     6 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Ship Builder (w7), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Ship Builder from the lower card row for 5 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     4 (21, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     6 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     4 (21, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     6 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Fur Trapper (w6), Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Fur Trapper from the upper card row for 4 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     6 (21, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Shepherd (w5)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 buys Shepherd from their hand for 4 rubles.
+
+Round: 5, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     2 (24, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 5, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Aristocrat, Trading
+     2	    32 (2, 11, 0)	     2 (24, 1, 3)	          2	Worker, Building
+Deck Sizes: Worker: 13, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+Lower Card Row: Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 6, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Worker, Building
+     2	    32 (2, 11, 0)	     2 (24, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 6, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Worker, Building
+     2	    32 (2, 11, 0)	     2 (24, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 buys Gold Miner from the upper card row for 2 rubles.
+
+Round: 6, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Worker, Building
+     2	    32 (2, 11, 0)	     0 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 6, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	     0 (24, 2, 6)	          3	Worker, Building
+     2	    32 (2, 11, 0)	     0 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 17, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 5, 2)	    24 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 0)	    27 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Hospital (b14), Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 buys Hospital from their hand for 14 rubles.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 2)	    10 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 0)	    27 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Customs House (b8), Firehouse (b11), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 adds Firehouse to their hand from the lower card row.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 2)	    10 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 0)	    27 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Customs House (b8), Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Admiral (ta18), Weaving Mill (tw8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 1 adds Customs House to their hand from the lower card row.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 2)	    10 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 0)	    27 (27, 1, 3)	          2	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Author (a4), Mistress of Ceremonies (a18), Judge (a16)
+
+Player 1:
+Hand: Admiral (ta18), Weaving Mill (tw8), Customs House (b8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7)
+
+> Player 2 buys Judge from the lower card row for 15 rubles.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 2)	    10 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    12 (27, 1, 8)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Author (a4), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Admiral (ta18), Weaving Mill (tw8), Customs House (b8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Warehouse Manager (a10)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16)
+
+> Player 1 buys Admiral from their hand for 8 rubles replacing Warehouse Manager.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     2 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    12 (27, 1, 8)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Author (a4), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16)
+
+> Player 2 buys Author from the lower card row for 2 rubles.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     2 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    10 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4), Market (b5)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 1 adds Market to their hand from the upper card row.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     2 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    10 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     2 (24, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    10 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Lumberjack (w3), Gold Miner (w4)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 1 buys Lumberjack from the upper card row for 1 ruble.
+
+Round: 6, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     1 (27, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    10 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Gold Miner (w4)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 2 passes.
+
+Round: 6, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    22 (0, 9, 5)	     1 (27, 2, 6)	          3	Worker, Building
+     2	    34 (2, 11, 2)	    10 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 14, Trading: 22
+
+Upper Card Row: Gold Miner (w4)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 1 passes.
+
+Round: 6, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	    11 (27, 1, 9)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4)
+
+> Player 2 buys Administrator from the upper card row for 6 rubles.
+
+Round: 6, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     5 (27, 1, 11)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 6, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     5 (27, 1, 11)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7)
+
+> Player 2 buys Author from the upper card row for 2 rubles.
+
+Round: 6, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     3 (27, 1, 12)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4)
+
+> Player 1 passes.
+
+Round: 6, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     3 (27, 1, 12)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Gold Miner (w4), Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4)
+
+> Player 2 buys Gold Miner from the upper card row for 1 ruble.
+
+Round: 6, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     2 (30, 1, 12)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4)
+
+> Player 1 passes.
+
+Round: 6, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    31 (0, 9, 5)	     3 (27, 2, 6)	          3	Worker, Building
+     2	    45 (2, 11, 2)	     2 (30, 1, 12)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 22
+
+Upper Card Row: Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4)
+
+> Player 2 passes.
+
+Round: 6, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (0, 9, 5)	     9 (27, 2, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	    14 (30, 1, 12)	          3	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Secretary (a12), Author (a4), Administrator (a7), Mistress of Ceremonies (a18), Smolny Cathedral (tb17s), Wharf (tw12), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4)
+
+> Player 2 buys Secretary from the upper card row for 12 rubles.
+
+Round: 6, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (0, 9, 5)	     9 (27, 2, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	     2 (30, 1, 16)	          4	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Author (a4), Administrator (a7), Mistress of Ceremonies (a18), Smolny Cathedral (tb17s), Wharf (tw12), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12)
+
+> Player 1 buys Wharf from the upper card row for 5 rubles replacing Ship Builder.
+
+Round: 6, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 9, 5)	     4 (30, 2, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	     2 (30, 1, 16)	          4	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Author (a4), Administrator (a7), Mistress of Ceremonies (a18), Smolny Cathedral (tb17s), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12)
+
+> Player 2 buys Author from the upper card row for 1 ruble.
+
+Round: 6, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 9, 5)	     4 (30, 2, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	     1 (30, 1, 17)	          4	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Administrator (a7), Mistress of Ceremonies (a18), Smolny Cathedral (tb17s), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Hospital (b14)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 buys Smolny Cathedral from the upper card row for 3 rubles replacing Hospital.
+
+Round: 6, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 8, 5)	     1 (30, 6, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	     1 (30, 1, 17)	          4	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 passes.
+
+Round: 6, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 8, 5)	     1 (30, 6, 6)	          3	Worker, Building
+     2	    47 (2, 11, 2)	     1 (30, 1, 17)	          4	Aristocrat, Trading
+Deck Sizes: Worker: 10, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 passes.
+
+Round: 7, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 8, 5)	     1 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    47 (2, 11, 2)	     1 (30, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Gold Miner (w4), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 buys Gold Miner from the upper card row for 1 ruble.
+
+Round: 7, Phase: Worker, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 8, 5)	     1 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    47 (2, 11, 2)	     0 (33, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 passes.
+
+Round: 7, Phase: Worker, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    36 (1, 8, 5)	     1 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    47 (2, 11, 2)	     0 (33, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 16, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 8, 5)	    31 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 11, 2)	    33 (33, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4), Customs House (b8)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8), Firehouse (b11)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 buys Firehouse from their hand for 11 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 8, 5)	    31 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 14, 2)	    22 (33, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4), Customs House (b8)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20), Firehouse (b11)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 buys Customs House from the upper card row for 8 rubles.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 10, 5)	    23 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 14, 2)	    22 (33, 1, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18), Bank (tb13)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Theater (b20), Firehouse (b11)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 buys Bank from the lower card row for 1 ruble replacing Theater.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 10, 5)	    23 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 2)	    21 (33, 6, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 passes.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 10, 5)	    23 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 2)	    21 (33, 6, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7), Gold Miner (w4)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 buys Gold Miner from the upper card row for 1 ruble.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 10, 5)	    23 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 2)	    20 (36, 6, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Customs House (b8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 1 buys Customs House from their hand for 7 rubles.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    16 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 2)	    20 (36, 6, 17)	          4	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Controller (a14), Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4)
+
+> Player 2 buys Controller from their hand for 14 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    16 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     6 (36, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Shepherd (w5), Fur Trapper (w6), Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 adds Shepherd to their hand from the upper card row.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    16 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     6 (36, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Fur Trapper (w6), Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Shepherd (w5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 2 buys Fur Trapper from the upper card row for 5 rubles.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    16 (30, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Shepherd (w5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 buys Shepherd from their hand for 5 rubles.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    11 (33, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Administrator (a7), Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 2 adds Administrator to their hand from the lower card row.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    11 (33, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: Ship Builder (w7)
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 adds Ship Builder to their hand from the upper card row.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    11 (33, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: 
+Lower Card Row: Mistress of Ceremonies (a18)
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Ship Builder (w7)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 2 adds Mistress of Ceremonies to their hand from the lower card row.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	    11 (33, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Ship Builder (w7)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 buys Ship Builder from their hand for 6 rubles.
+
+Round: 7, Phase: Building, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	     5 (36, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 2 passes.
+
+Round: 7, Phase: Building, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    37 (1, 12, 5)	     5 (36, 6, 6)	          3	Aristocrat, Trading
+     2	    49 (2, 9, 3)	     1 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 8, Trading: 19
+
+Upper Card Row: 
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 passes.
+
+Round: 7, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	    11 (36, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     7 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Secretary (a12), Administrator (a7), Warehouse Manager (a10), Author (a4), Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 1 adds Secretary to their hand from the upper card row.
+
+Round: 7, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	    11 (36, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     7 (39, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Administrator (a7), Warehouse Manager (a10), Author (a4), Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Secretary (a12)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14)
+
+> Player 2 buys Administrator from the upper card row for 5 rubles.
+
+Round: 7, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	    11 (36, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     2 (39, 6, 23)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Warehouse Manager (a10), Author (a4), Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Weaving Mill (tw8), Market (b5), Secretary (a12)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Shepherd (w5), Ship Builder (w7)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7)
+
+> Player 1 buys Weaving Mill from their hand for 3 rubles replacing Shepherd.
+
+Round: 7, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	     8 (39, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     2 (39, 6, 23)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Warehouse Manager (a10), Author (a4), Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Secretary (a12)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7)
+
+> Player 2 buys Author from the upper card row for 1 ruble.
+
+Round: 7, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	     8 (39, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     1 (39, 6, 24)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Warehouse Manager (a10), Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Secretary (a12)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4)
+
+> Player 1 adds Warehouse Manager to their hand from the upper card row.
+
+Round: 7, Phase: Aristocrat, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	     8 (39, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     1 (39, 6, 24)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Secretary (a12), Warehouse Manager (a10)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4)
+
+> Player 2 passes.
+
+Round: 7, Phase: Aristocrat, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	     8 (39, 6, 6)	          3	Aristocrat, Trading
+     2	    58 (2, 9, 3)	     1 (39, 6, 24)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 19
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Secretary (a12), Warehouse Manager (a10)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	    14 (39, 6, 6)	          3	Aristocrat, Trading
+     2	    61 (2, 9, 3)	    25 (39, 6, 24)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14), Czar (ta24), Wharf (tw12), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Secretary (a12), Warehouse Manager (a10)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4)
+
+> Player 1 buys Secretary from their hand for 12 rubles.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (2, 9, 3)	    25 (39, 6, 24)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14), Czar (ta24), Wharf (tw12), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Judge (a16), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4)
+
+> Player 2 buys Czar from the upper card row for 8 rubles replacing Judge.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (2, 9, 7)	    17 (39, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Administrator (a7), Controller (a14), Wharf (tw12), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24)
+
+> Player 1 adds Controller to their hand from the upper card row.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (2, 9, 7)	    17 (39, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Administrator (a7), Controller (a14), Wharf (tw12), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Ship Builder (w7), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24)
+
+> Player 2 buys Wharf from the upper card row for 5 rubles replacing Ship Builder.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 7)	    12 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Administrator (a7), Controller (a14), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 7)	    12 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Administrator (a7), Controller (a14), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24)
+
+> Player 2 buys Administrator from the upper card row for 4 rubles.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 7)	     8 (42, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 7)	     8 (42, 6, 21)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), Tax Man (ta16), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Controller (a14), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7)
+
+> Player 2 buys Tax Man from the upper card row for 2 rubles replacing Controller.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     6 (42, 6, 17)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     6 (42, 6, 17)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Administrator (a7), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16)
+
+> Player 2 buys Administrator from their hand for 3 rubles.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     3 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     3 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Warehouse Manager (a10), Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Mistress of Ceremonies (a18)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16), Administrator (a7)
+
+> Player 2 adds Warehouse Manager to their hand from the upper card row.
+
+Round: 7, Phase: Trading, Player Turn: 1
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     3 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Mistress of Ceremonies (a18), Warehouse Manager (a10)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16), Administrator (a7)
+
+> Player 1 passes.
+
+Round: 7, Phase: Trading, Player Turn: 2
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    54 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     3 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Mistress of Ceremonies (a18), Warehouse Manager (a10)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16), Administrator (a7)
+
+> Player 2 passes.
+
+Round: 8, Phase: End, Game Over
+Player	Points (per phase)	Rubles (per phase)	Aristocrats	Starting Phases
+     1	    49 (1, 12, 5)	     2 (39, 6, 10)	          4	Aristocrat, Trading
+     2	    61 (3, 9, 6)	     3 (42, 6, 19)	          5	Worker, Building
+Deck Sizes: Worker: 5, Building: 15, Aristocrat: 0, Trading: 15
+
+Upper Card Row: Controller (a14), St. Isaac's Cathedral (tb15)
+Lower Card Row: 
+
+Player 1:
+Hand: Market (b5), Warehouse Manager (a10), Controller (a14)
+Workers: Lumberjack (w3), Fur Trapper (w6), Lumberjack (w3), Lumberjack (w3), Fur Trapper (w6), Ship Builder (w7), Fur Trapper (w6), Lumberjack (w3), Wharf (tw12), Ship Builder (w7), Weaving Mill (tw8)
+Buildings: Church of the Resurrection of Jesus Christ (tb16c), Market (b5), Potjomkin's Village (bpo), Smolny Cathedral (tb17s), Customs House (b8), Customs House (b8)
+Aristocrats: Author (a4), Senator (ta12), Admiral (ta18), Secretary (a12)
+
+Player 2:
+Hand: Customs House (b8), Mistress of Ceremonies (a18), Warehouse Manager (a10)
+Workers: Shepherd (w5), Fur Shop (tw10), Lumberjack (w3), Gold Miner (w4), Fur Trapper (w6), Gold Miner (w4), Shepherd (w5), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Gold Miner (w4), Fur Trapper (w6), Wharf (tw12)
+Buildings: Catherine the Great Palace (tb17c), Firehouse (b11), Bank (tb13)
+Aristocrats: Author (a4), Administrator (a7), Author (a4), Administrator (a7), Author (a4), Secretary (a12), Author (a4), Administrator (a7), Author (a4), Czar (ta24), Administrator (a7), Tax Man (ta16), Administrator (a7)
+
+Player 2 (Random) wins!
