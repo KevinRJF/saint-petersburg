@@ -1,0 +1,99 @@
+Edition,Quantity,Type,Name,Cost,Rubles,Points,Other,Abbrev.
+1,6,worker,Lumberjack,3,3,0,,w3
+1,6,worker,Gold Miner,4,3,0,,w4
+1,6,worker,Shepherd,5,3,0,,w5
+1,6,worker,Fur Trapper,6,3,0,,w6
+1,6,worker,Ship Builder,7,3,0,,w7
+1,1,worker,Czar and Carpenter,8,3,0,replaces for all worker trading cards,w8
+1,5,building,Market,5,0,1,,b5
+1,5,building,Customs House,8,0,2,,b8
+1,3,building,Firehouse,11,0,3,,b11
+1,3,building,Hospital,14,0,4,,b14
+1,3,building,Library,17,0,5,,b17
+1,2,building,Theater,20,0,6,,b20
+1,1,building,Academy,23,0,7,,b23
+1,1,building,Potjomkin's Village,2,0,0,trade cost 6,bpo
+1,2,building,Pub,1,0,0,buy up to 5 points for 2 rubles each,bpu
+1,1,building,Warehouse,2,0,0,plus 1 hand size,bw
+1,2,building,Observatory,6,0,0,1 point if unused; buy/hand/discard top card,bo
+1,6,aristocrat,Author,4,1,0,,a4
+1,5,aristocrat,Administrator,7,2,0,,a7
+1,5,aristocrat,Warehouse Manager,10,3,0,,a10
+1,4,aristocrat,Secretary,12,4,0,,a12
+1,3,aristocrat,Controller,14,4,1,,a14
+1,2,aristocrat,Judge,16,5,2,,a16
+1,2,aristocrat,Mistress of Ceremonies,18,6,3,,a18
+1,1,trading worker,Carpenter Workshop,4,3,0,1 discount per building; replaces Lumberjack,tw4
+1,1,trading worker,Gold Smelter,6,3,0,1 discount per aristocrat; replaces Gold Miner,tw6
+1,2,trading worker,Weaving Mill,8,6,0,replaces Shepherd,tw8
+1,3,trading worker,Fur Shop,10,3,2,replaces Fur Trapper,tw10
+1,3,trading worker,Wharf,12,6,1,replaces Ship Builder,tw12
+1,1,trading building,Mariinskij-Theater,10,0,0,1 ruble per aristocrat card,tb10
+1,1,trading building,Bank,13,5,1,,tb13
+1,1,trading building,Peterhof,14,4,2,,tb14
+1,1,trading building,St. Isaac's Cathedral,15,3,3,,tb15
+1,1,trading building,Harbor,16,5,2,,tb16h
+1,1,trading building,Church of the Resurrection of Jesus Christ,16,2,4,,tb16c
+1,1,trading building,Catherine the Great Palace,17,1,5,,tb17c
+1,1,trading building,Smolny Cathedral,17,4,3,,tb17s
+1,1,trading building,Hermitage,18,3,4,,tb18
+1,1,trading building,Winter Palace,19,2,5,,tb19
+1,1,trading aristocrat,Pope,6,1,1,,ta6
+1,1,trading aristocrat,Chamber Maid,8,4,0,,ta8c
+1,1,trading aristocrat,Weapon Master,8,0,2,,ta8w
+1,1,trading aristocrat,Builder,10,5,0,,ta10
+1,1,trading aristocrat,Senator,12,2,2,,ta12
+1,1,trading aristocrat,Patriarch,14,0,4,,ta14
+1,1,trading aristocrat,Tax Man,16,0,0,1 ruble per worker card,ta16
+1,1,trading aristocrat,Admiral,18,3,3,,ta18
+1,1,trading aristocrat,Minister of Foreign Affairs,20,2,4,,ta20
+1,1,trading aristocrat,Czar,24,0,6,,ta24
+2,6,worker,Lumberjack,3,3,0,,w3
+2,6,worker,Gold Miner,4,3,0,,w4
+2,6,worker,Shepherd,5,3,0,,w5
+2,6,worker,Fur Trapper,6,3,0,,w6
+2,6,worker,Ship Builder,7,3,0,,w7
+2,1,worker,Czar & Carpenter,8,3,0,replaces for all worker trading cards,w8
+2,5,building,Market,5,0,1,,b5
+2,5,building,Customs House,8,0,2,,b8
+2,3,building,Firehouse,11,0,3,,b11
+2,3,building,Hospital,14,0,4,,b14
+2,3,building,Library,17,0,5,,b17
+2,2,building,Theater,20,0,6,,b20
+2,1,building,Academy,23,0,7,,b23
+2,1,building,Potemkin Village,2,0,0,trade cost 6,bpo
+2,2,building,Pub,1,0,0,buy up to 5 points for 2 rubles each,bpu
+2,1,building,Warehouse,2,0,0,plus 1 hand size,bw
+2,2,building,Observatory,7,0,0,1 point if unused; buy/hand/discard top card,bo2
+2,6,aristocrat,Author,4,1,0,,a4
+2,5,aristocrat,Administrator,7,2,0,,a7
+2,5,aristocrat,Warehouse Manager,10,3,0,,a10
+2,4,aristocrat,Secretary,12,4,0,,a12
+2,3,aristocrat,Controller,14,4,1,,a14
+2,2,aristocrat,Judge,17,5,2,,a17
+2,2,aristocrat,Mistress of Ceremonies,20,6,3,,a20
+2,1,trading worker,Carpenter Workshop,4,3,0,1 discount per building; replaces Lumberjack,tw4
+2,1,trading worker,Gold Smelter,6,3,0,1 discount per aristocrat; replaces Gold Miner,tw6
+2,2,trading worker,Weaving Mill,8,6,0,replaces Shepherd,tw8
+2,3,trading worker,Fur Shop,10,3,2,replaces Fur Trapper,tw10
+2,3,trading worker,Wharf,12,6,1,replaces Ship Builder,tw12
+2,1,trading building,Mariinskij Theater,15,0,0,1 ruble per aristocrat card,tb15m
+2,1,trading building,Bank,13,5,1,,tb13
+2,1,trading building,Peterhof,14,4,2,,tb14
+2,1,trading building,St. Isaac's Cathedral,15,3,3,,tb15
+2,1,trading building,Harbor,16,5,2,,tb16h
+2,1,trading building,Church of the Resurrection of Jesus Christ,16,2,4,,tb16c
+2,1,trading building,Catherine the Great Palace,17,1,5,,tb17c
+2,1,trading building,Smolny Cathedral,17,4,3,,tb17s
+2,1,trading building,Hermitage,18,3,4,,tb18
+2,1,trading building,Winter Palace,19,2,5,,tb19
+2,1,trading aristocrat,Abbot,6,1,1,,ta6
+2,1,trading aristocrat,Chamber Maid,8,4,0,,ta8c
+2,1,trading aristocrat,Weapon Master,8,0,2,,ta8w
+2,1,trading aristocrat,Builder,10,5,0,,ta10
+2,1,trading aristocrat,Senator,12,2,2,,ta12
+2,1,trading aristocrat,Patriarch,16,0,4,,ta16p
+2,1,trading aristocrat,Tax Man,17,0,0,1 ruble per worker card,ta17
+2,1,trading aristocrat,Admiral,18,3,3,,ta18
+2,1,trading aristocrat,Minister of Foreign Affairs,20,2,4,,ta20
+2,1,trading aristocrat,Czarina,24,0,6,,ta24
