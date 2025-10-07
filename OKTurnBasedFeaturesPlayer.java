@@ -3,8 +3,8 @@ import java.util.Random;
 
 public class OKTurnBasedFeaturesPlayer extends SPPlayer {
 
-    private final int numSimulationsPerAction = 1000;
-    private final int playoutTerminationDepth = 4;
+    private final int numSimulationsPerAction = 500;
+    private final int playoutTerminationDepth = 15;
     private final boolean verbose = true;
     OKStateFeaturesLR1 features = new OKStateFeaturesLR1();
     private final Random rng = new Random();
