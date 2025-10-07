@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,10 +12,15 @@ import java.util.Set;
 
 import smile.classification.LogisticRegression;
 
+/**
+ * OKStateFeaturesLR1 - feature extractor + logistic-win model.
+ * Includes many SPFeature inner classes plus a corrected ROIFeature.
+ */
 public class OKStateFeaturesLR1 {
-    String modelFilename = "SPLogisticRegression1.model";
+    String modelFilename = "OKLogisticRegression1.model";
     LogisticRegression.Binomial model;
     ArrayList<SPFeature> features;
+    
 
     public ArrayList<Object> getFeatureValues(SPState state) {
         ArrayList<Object> values = new ArrayList<>();
@@ -51,7 +57,8 @@ public class OKStateFeaturesLR1 {
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHand(), new SPFeatureMinDeckSize()));
         features.add(new SPFeatureCardsInHandDiff());
         features.add(new SPFeatureInteractionTerm(new SPFeatureCardsInHandDiff(), new SPFeatureMinDeckSize()));
-        features.add(new ROIFeature());//25
+        // ROI feature (fixed implementation)
+        features.add(new ROIFeature()); // ~index 25
         features.add(new SPFeatureInteractionTerm(new ROIFeature(), new SPFeatureMinDeckSize()));
         initializeModel();
     }
@@ -101,7 +108,7 @@ public class OKStateFeaturesLR1 {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
             writer.println(getCSVHeader());
             for (int i = 0; i < numGames; i++) {
-                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPRandomPlayer(), new SPRandomPlayer());
+                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
                 writer.print(getCSVRows(transcript));
             }
         } catch (IOException e) {
@@ -110,20 +117,16 @@ public class OKStateFeaturesLR1 {
     }
 
     public void learnModel() {
-        // This method assumes that the logistic regression model has not been created and saved yet.
-        // It generates training data by simulating games and saves it to a CSV file.
-        // Then it uses logistic regression to learn a model and saves it to a file.
-
+        // WARNING: expensive. Lower numGames while debugging.
         String trainingDataFile = "SPTrainingData.csv";
-        int numGames = 10000; // Number of games to simulate for training data
+        int numGames = 10000; // adjust down for development
         generateCSVData(trainingDataFile, numGames);
 
-        // Load the training data from the CSV file into a Smile dataset (Anh code)
         List<double[]> values = new ArrayList<>();
         List<Integer> labels = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(trainingDataFile))) {
-            String line = br.readLine(); 
+            String line = br.readLine(); // header
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
                 double[] row = new double[parts.length - 1];
@@ -142,26 +145,25 @@ public class OKStateFeaturesLR1 {
         double[][] X = values.toArray(new double[0][]);
         int[] y = labels.stream().mapToInt(i -> i).toArray();
 
-        // Perform logistic regression using the Smile library
-        LogisticRegression.Binomial model = LogisticRegression.binomial(X, y);
+        // Train logistic regression (win-probability)
+        LogisticRegression.Binomial modelLocal = LogisticRegression.binomial(X, y);
 
-        // Save the model to a file using an ObjectOutputStream
+        // Save model
         try (java.io.ObjectOutputStream oos = new java.io.ObjectOutputStream(new java.io.FileOutputStream(modelFilename))) {
-            oos.writeObject(model);
+            oos.writeObject(modelLocal);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        // Print the model coefficients along with their feature names
         System.out.println("Model coefficients:");
         System.out.println(features.size() + " features");
-        System.out.println(model.coefficients().length + " coefficients");
-        System.out.printf("%.4f\tIntercept%n", model.coefficients()[0]);
-        for (int i = 0; i < model.coefficients().length - 1; i++) {
-            System.out.printf("%.4f\t%s%n", model.coefficients()[i + 1], features.get(i).getName());
+        System.out.println(modelLocal.coefficients().length + " coefficients");
+        System.out.printf("%.4f\tIntercept%n", modelLocal.coefficients()[0]);
+        for (int i = 0; i < modelLocal.coefficients().length - 1; i++) {
+            System.out.printf("%.4f\t%s%n", modelLocal.coefficients()[i + 1], features.get(i).getName());
         }
 
-        // Delete the training data file after learning the model
+        // delete training data file
         java.nio.file.Path path = java.nio.file.Paths.get(trainingDataFile);
         try {
             java.nio.file.Files.delete(path);
@@ -171,20 +173,38 @@ public class OKStateFeaturesLR1 {
     }
 
     public double predict(SPState state) {
-        // Create a double array for the feature values
         double[] featureValues = new double[features.size()];
         for (int i = 0; i < features.size(); i++) {
-            System.out.println("for each feature" + i);
             Object value = features.get(i).getValue(state);
             featureValues[i] = (value instanceof Number) ? ((Number) value).doubleValue() : 0.0;
-            System.out.println("setfeaturevals" + i);
         }
-
-        // Use the logistic regression model to predict the probability of winning
         return model.score(featureValues);
     }
 
-    // min_deck_size – the number of cards in the smallest phase deck
+    /* --------------------- Inner feature classes --------------------- */
+
+    // Interaction term: product of two features
+    class SPFeatureInteractionTerm extends SPFeature {
+        private final SPFeature a;
+        private final SPFeature b;
+
+        public SPFeatureInteractionTerm(SPFeature a, SPFeature b) {
+            super(a.getName() + "_x_" + b.getName(), "interaction of " + a.getName() + " and " + b.getName());
+            this.a = a;
+            this.b = b;
+        }
+
+        @Override
+        public Object getValue(SPState state) {
+            Object va = a.getValue(state);
+            Object vb = b.getValue(state);
+            double da = (va instanceof Number) ? ((Number) va).doubleValue() : 0.0;
+            double db = (vb instanceof Number) ? ((Number) vb).doubleValue() : 0.0;
+            return da * db;
+        }
+    }
+
+    // min_deck_size
     class SPFeatureMinDeckSize extends SPFeature {
         public SPFeatureMinDeckSize() {
             super("min_deck_size", "the number of cards in the smallest phase deck");
@@ -200,7 +220,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // points – current player points
+    // points
     class SPFeaturePoints extends SPFeature {
         public SPFeaturePoints() {
             super("points", "current player points");
@@ -211,7 +231,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // points_diff – current player points relative to the opponent (assumes two players)
+    // points_diff
     class SPFeaturePointsDiff extends SPFeature {
         public SPFeaturePointsDiff() {
             super("points_diff", "current player points relative to the opponent");
@@ -222,7 +242,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // rubles – current player rubles (money)
+    // rubles
     class SPFeatureRubles extends SPFeature {
         public SPFeatureRubles() {
             super("rubles", "current player rubles (money)");
@@ -233,7 +253,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // rubles_diff – current player rubles (money) relative to the opponent
+    // rubles_diff
     class SPFeatureRublesDiff extends SPFeature {
         public SPFeatureRublesDiff() {
             super("rubles_diff", "current player rubles (money) relative to the opponent");
@@ -244,7 +264,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // points_round_gain – the number of points the current player is gaining per round
+    // points_round_gain
     class SPFeaturePointsRoundGain extends SPFeature {
         public SPFeaturePointsRoundGain() {
             super("points_round_gain", "the number of points the current player is gaining per round");
@@ -258,7 +278,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // points_round_gain_diff – the number of points the current player is gaining per round relative to the opponent
+    // points_round_gain_diff
     class SPFeaturePointsRoundGainDiff extends SPFeature {
         public SPFeaturePointsRoundGainDiff() {
             super("points_round_gain_diff", "the number of points the current player is gaining per round relative to the opponent");
@@ -275,7 +295,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // rubles_round_gain – the number of rubles the current player is gaining per round
+    // rubles_round_gain
     class SPFeatureRublesRoundGain extends SPFeature {
         public SPFeatureRublesRoundGain() {
             super("rubles_round_gain", "the number of rubles the current player is gaining per round");
@@ -289,7 +309,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // rubles_round_gain_diff – the number of rubles the current player is gaining per round relative to the opponent
+    // rubles_round_gain_diff
     class SPFeatureRublesRoundGainDiff extends SPFeature {
         public SPFeatureRublesRoundGainDiff() {
             super("rubles_round_gain_diff", "the number of rubles the current player is gaining per round relative to the opponent");
@@ -306,7 +326,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // unique_aristocrats – the number of unique aristocrats of the current player
+    // unique_aristocrats
     class SPFeatureUniqueAristocrats extends SPFeature {
         public SPFeatureUniqueAristocrats() {
             super("unique_aristocrats", "the number of unique aristocrats of the current player");
@@ -317,7 +337,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // unique_aristocrats_diff – the number of unique aristocrats of the current player relative to the opponent
+    // unique_aristocrats_diff
     class SPFeatureUniqueAristocratsDiff extends SPFeature {
         public SPFeatureUniqueAristocratsDiff() {
             super("unique_aristocrats_diff", "the number of unique aristocrats of the current player relative to the opponent");
@@ -330,7 +350,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // cards_in_hand – the number of cards in the current player hand
+    // cards_in_hand
     class SPFeatureCardsInHand extends SPFeature {
         public SPFeatureCardsInHand() {
             super("cards_in_hand", "the number of cards in the current player hand");
@@ -341,7 +361,7 @@ public class OKStateFeaturesLR1 {
         }
     }
 
-    // cards_in_hand_diff – the number of cards in the current player hand relative to the opponent
+    // cards_in_hand_diff
     class SPFeatureCardsInHandDiff extends SPFeature {
         public SPFeatureCardsInHandDiff() {
             super("cards_in_hand_diff", "the number of cards in the current player hand relative to the opponent");
@@ -351,84 +371,110 @@ public class OKStateFeaturesLR1 {
             int cardsInHand = state.playerHands.get(state.playerTurn).size();
             int opponentCardsInHand = state.playerHands.get(1 - state.playerTurn).size();
             return cardsInHand - opponentCardsInHand;
-        }   
+        }
     }
 
-    class ROIFeature extends SPFeature{
-        int samples = 50;
-        int maxDepth = 30;
+    /**
+     * ROIFeature - corrected and safer.
+     * Estimates expected points and divides by estimated remaining turns (averaged).
+     */
+    class ROIFeature extends SPFeature {
+        private final int samples = 50;   // number of playouts for round estimate
+        private final int maxDepth = 30;  // cap for playout length
 
-        public ROIFeature(){
-            super("ROIFeature", "the return on investment of the card to be bought");
+        public ROIFeature() {
+            super("ROI", "estimated points per remaining round");
         }
 
-
-        public Object getValue(SPState state){
+        @Override
+        public Object getValue(SPState state) {
             double expectedPoints = estimatePoints(state);
-            return expectedPoints / Math.max(1.0, estimateRounds(state) - state.round); //math.max function used. If rounds remaining = 0, will throw exception
+            double estRoundsLeft = estimateRounds(state);
+            return expectedPoints / Math.max(1.0, estRoundsLeft);
         }
 
-        public int estimateRounds(SPState state){
-            int turns = 0;
-            for(int i = 0; i < samples; i++){
-                SPState sim = state.clone();
-
-                while (!sim.isGameOver()) {
+        private double estimateRounds(SPState root) {
+            int totalTurns = 0;
+            for (int s = 0; s < samples; s++) {
+                SPState sim = root.clone();
+                int turns = 0;
+                while (!sim.isGameOver() && turns < maxDepth) {
                     ArrayList<SPAction> legal = sim.getLegalActions();
-                if (legal.isEmpty()){
-                    break;
+                    if (legal.isEmpty()) break;
+                    legal.get((int) (Math.random() * legal.size())).take();
+                    turns++;
                 }
-                SPAction randomAction = legal.get((int) (Math.random() * legal.size()));
-                randomAction.take();
-                turns++;
-                }
-                turns += turns;
+                totalTurns += turns;
             }
-            int estRounds = turns/samples;
-            return estRounds;
+            return (double) totalTurns / (double) samples;
         }
 
-        //method combines unique aristocrat class and the ROI class. calculates the
         private double estimatePoints(SPState state) {
             int player = state.playerTurn;
             int currentPoints = state.playerPoints[player];
-            int aristocratBonus = 0;
 
-            // find best single-card point gain we can buy now
+            // best single-card points we could buy immediately
             int bestCardPoints = 0;
             for (SPAction action : state.getLegalActions()) {
                 if (action instanceof SPBuyAction) {
                     SPCard card = ((SPBuyAction) action).card;
-                    bestCardPoints = Math.max(bestCardPoints, card.points);
+                    if (card != null) bestCardPoints = Math.max(bestCardPoints, card.points);
                 }
             }
 
-            // redo this section: no Set<> aristocrattypes
-            if(state.round == 2){
-                Set<String> aristocratTypes = new HashSet<>();
-                for (int i = 0; i < state.playerAristocrats.size(); i++) {
-                    SPCard cur = state.playerAristocrats.get(player).get(i);
-                    if (cur.isAristocrat) {
-                        aristocratTypes.add(cur.name);
-                    }
-                }
-                // compute aristocrat set bonus according to St. Petersburg rules:
-                // e.g., 1/3/6/10/15/21/28/36 pts for 1–8 unique aristocrats
-                int n = aristocratTypes.size();
-                if (n > 0) {
-                    // typical bonus progression
-                    int[] bonusTable = {0,1,3,6,10,15,21,28,36};
-                    aristocratBonus = bonusTable[Math.min(n, bonusTable.length-1)];
-                }
-
+            // unique aristocrats owned by player
+            Set<String> uniqueAris = new HashSet<>();
+            ArrayList<SPCard> myAris = state.playerAristocrats.get(player);
+            for (SPCard c : myAris) {
+                if (c != null && c.isAristocrat) uniqueAris.add(c.name);
             }
+            int n = uniqueAris.size();
+            int aristocratBonus = 0;
+            if (n > 0) {
+                if (SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS != null && !SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.isEmpty()) {
+                    aristocratBonus = SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get(Math.min(n, SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.size() - 1));
+                } else {
+                    int[] bonusTable = {0, 1, 3, 6, 10, 15, 21, 28, 36};
+                    aristocratBonus = bonusTable[Math.min(n, bonusTable.length - 1)];
+                }
+            }
+
             return currentPoints + bestCardPoints + aristocratBonus;
         }
     }
 
-
-    public static void main(String[] args) {
-        new OKStateFeaturesLR1();
+    // Inside OKStateFeaturesRF1.java, after your other feature classes:
+    class SPFeatureFutureRubleGain extends SPFeature {
+    public SPFeatureFutureRubleGain() {
+        super("future_ruble_gain", "sum of rubles-per-round from affordable marketplace cards");
     }
 
+    @Override
+    public Object getValue(SPState state) {
+        int playerRubles = state.playerRubles[state.playerTurn];
+        int futureGain = 0;
+        
+        // Check Upper Card Row
+        for (SPCard card : state.upperCardRow) {
+            if (card.cost <= playerRubles) {
+                futureGain += card.rubles;
+            }
+        }
+
+        // Check Lower Card Row
+        for (SPCard card : state.lowerCardRow) {
+            if (card.cost <= playerRubles) {
+                futureGain += card.rubles;
+            }
+        }
+        
+        return futureGain;
+    }
+}
+
+    // main for quick smoke test
+    public static void main(String[] args) {
+        new OKStateFeaturesLR1();
+        System.out.println("OKStateFeaturesLR1 constructed.");
+    }
 }
