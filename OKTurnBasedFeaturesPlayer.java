@@ -38,8 +38,21 @@ public class OKTurnBasedFeaturesPlayer extends SPPlayer {
                randomAction.take();
             }
 
+            double roiHeuristic = 0.0;
+            boolean buyAction = false;
+
+            if(action instanceof SPBuyAction){
+               buyAction = true;
+               roiHeuristic = this.evaluateBuyAction(state);
+            }
+
             double heuristicValue = this.eval(simCopy);
+
             if (state.playerTurn != simCopy.playerTurn) {
+               if(roiHeuristic > heuristicValue){
+                  heuristicValue = roiHeuristic;
+                  //System.out.println("roi");
+               }
                heuristicValue = 1.0 - heuristicValue;
             }
 
@@ -63,5 +76,10 @@ public class OKTurnBasedFeaturesPlayer extends SPPlayer {
     private double eval(SPState state) {
         return features.predict(state);
     }
+
+    private double evaluateBuyAction(SPState state) {
+      Object roiValue = roi.getValue(state);
+      return (double) roiValue;
+   }
 
 }
