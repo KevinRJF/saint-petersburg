@@ -14,13 +14,12 @@ import smile.classification.LogisticRegression;
 
 /**
  * OKStateFeaturesLR1 - feature extractor + logistic-win model.
- * Includes many SPFeature inner classes plus a corrected ROIFeature.
+ * Includes ROI Engineered feature
  */
 public class OKStateFeaturesLR1 {
     String modelFilename = "OKLogisticRegression1.model";
     LogisticRegression.Binomial model;
     ArrayList<SPFeature> features;
-    
 
     public ArrayList<Object> getFeatureValues(SPState state) {
         ArrayList<Object> values = new ArrayList<>();
@@ -68,7 +67,8 @@ public class OKStateFeaturesLR1 {
             System.out.println("Model file does not exist. Generating model...");
             learnModel();
         }
-        try (java.io.ObjectInputStream ois = new java.io.ObjectInputStream(new java.io.FileInputStream(modelFilename))) {
+        try (java.io.ObjectInputStream ois = new java.io.ObjectInputStream(
+                new java.io.FileInputStream(modelFilename))) {
             model = (LogisticRegression.Binomial) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
@@ -119,7 +119,7 @@ public class OKStateFeaturesLR1 {
     public void learnModel() {
         // WARNING: expensive. Lower numGames while debugging.
         String trainingDataFile = "SPTrainingData.csv";
-        int numGames = 10000; // adjust down for development
+        int numGames = 1000; // adjust down for development
         generateCSVData(trainingDataFile, numGames);
 
         List<double[]> values = new ArrayList<>();
@@ -149,7 +149,8 @@ public class OKStateFeaturesLR1 {
         LogisticRegression.Binomial modelLocal = LogisticRegression.binomial(X, y);
 
         // Save model
-        try (java.io.ObjectOutputStream oos = new java.io.ObjectOutputStream(new java.io.FileOutputStream(modelFilename))) {
+        try (java.io.ObjectOutputStream oos = new java.io.ObjectOutputStream(
+                new java.io.FileOutputStream(modelFilename))) {
             oos.writeObject(modelLocal);
         } catch (IOException e) {
             e.printStackTrace();
@@ -281,14 +282,16 @@ public class OKStateFeaturesLR1 {
     // points_round_gain_diff
     class SPFeaturePointsRoundGainDiff extends SPFeature {
         public SPFeaturePointsRoundGainDiff() {
-            super("points_round_gain_diff", "the number of points the current player is gaining per round relative to the opponent");
+            super("points_round_gain_diff",
+                    "the number of points the current player is gaining per round relative to the opponent");
         }
 
         public Object getValue(SPState state) {
             int pointsPerRound = state.playerWorkers.get(state.playerTurn).stream().mapToInt(card -> card.points).sum()
                     + state.playerBuildings.get(state.playerTurn).stream().mapToInt(card -> card.points).sum()
                     + state.playerAristocrats.get(state.playerTurn).stream().mapToInt(card -> card.points).sum();
-            int opponentPointsPerRound = state.playerWorkers.get(1 - state.playerTurn).stream().mapToInt(card -> card.points).sum()
+            int opponentPointsPerRound = state.playerWorkers.get(1 - state.playerTurn).stream()
+                    .mapToInt(card -> card.points).sum()
                     + state.playerBuildings.get(1 - state.playerTurn).stream().mapToInt(card -> card.points).sum()
                     + state.playerAristocrats.get(1 - state.playerTurn).stream().mapToInt(card -> card.points).sum();
             return pointsPerRound - opponentPointsPerRound;
@@ -312,14 +315,16 @@ public class OKStateFeaturesLR1 {
     // rubles_round_gain_diff
     class SPFeatureRublesRoundGainDiff extends SPFeature {
         public SPFeatureRublesRoundGainDiff() {
-            super("rubles_round_gain_diff", "the number of rubles the current player is gaining per round relative to the opponent");
+            super("rubles_round_gain_diff",
+                    "the number of rubles the current player is gaining per round relative to the opponent");
         }
 
         public Object getValue(SPState state) {
             int rublesPerRound = state.playerWorkers.get(state.playerTurn).stream().mapToInt(card -> card.rubles).sum()
                     + state.playerBuildings.get(state.playerTurn).stream().mapToInt(card -> card.rubles).sum()
                     + state.playerAristocrats.get(state.playerTurn).stream().mapToInt(card -> card.rubles).sum();
-            int opponentRublesPerRound = state.playerWorkers.get(1 - state.playerTurn).stream().mapToInt(card -> card.rubles).sum()
+            int opponentRublesPerRound = state.playerWorkers.get(1 - state.playerTurn).stream()
+                    .mapToInt(card -> card.rubles).sum()
                     + state.playerBuildings.get(1 - state.playerTurn).stream().mapToInt(card -> card.rubles).sum()
                     + state.playerAristocrats.get(1 - state.playerTurn).stream().mapToInt(card -> card.rubles).sum();
             return rublesPerRound - opponentRublesPerRound;
@@ -340,12 +345,14 @@ public class OKStateFeaturesLR1 {
     // unique_aristocrats_diff
     class SPFeatureUniqueAristocratsDiff extends SPFeature {
         public SPFeatureUniqueAristocratsDiff() {
-            super("unique_aristocrats_diff", "the number of unique aristocrats of the current player relative to the opponent");
+            super("unique_aristocrats_diff",
+                    "the number of unique aristocrats of the current player relative to the opponent");
         }
 
         public Object getValue(SPState state) {
             long uniqueAristocrats = state.playerAristocrats.get(state.playerTurn).stream().distinct().count();
-            long opponentUniqueAristocrats = state.playerAristocrats.get(1 - state.playerTurn).stream().distinct().count();
+            long opponentUniqueAristocrats = state.playerAristocrats.get(1 - state.playerTurn).stream().distinct()
+                    .count();
             return uniqueAristocrats - opponentUniqueAristocrats;
         }
     }
@@ -376,23 +383,34 @@ public class OKStateFeaturesLR1 {
 
     /**
      * ROIFeature - corrected and safer.
-     * Estimates expected points and divides by estimated remaining turns (averaged).
+     * Estimates expected points and divides by estimated remaining turns
+     * (averaged).
      */
     class ROIFeature extends SPFeature {
-        private final int samples = 50;   // number of playouts for round estimate
-        private final int maxDepth = 30;  // cap for playout length
+        private final int samples = 50; // playouts for estimating rounds left
+        private final int maxDepth = 30; // cap for playout length
 
         public ROIFeature() {
-            super("ROI", "estimated points per remaining round");
+            super("ROI", "expected points per remaining round with income awareness");
         }
 
         @Override
         public Object getValue(SPState state) {
-            double expectedPoints = estimatePoints(state);
+            int player = state.playerTurn;
+            double expectedPoints = estimatePoints(state, player);
+            double expectedIncome = estimateIncome(state, player);
             double estRoundsLeft = estimateRounds(state);
-            return expectedPoints / Math.max(1.0, estRoundsLeft);
+
+            // Phase-aware weighting
+            double phaseFactor = (state.phase <= 3) ? 0.5 : 1.0; // early game: emphasize income
+
+            // ROI = (points + weighted income) / estRoundsLeft
+            double roi = (expectedPoints + phaseFactor * expectedIncome) / Math.max(1.0, estRoundsLeft);
+
+            return roi;
         }
 
+        // Estimate remaining rounds using playouts
         private double estimateRounds(SPState root) {
             int totalTurns = 0;
             for (int s = 0; s < samples; s++) {
@@ -400,77 +418,119 @@ public class OKStateFeaturesLR1 {
                 int turns = 0;
                 while (!sim.isGameOver() && turns < maxDepth) {
                     ArrayList<SPAction> legal = sim.getLegalActions();
-                    if (legal.isEmpty()) break;
+                    if (legal.isEmpty())
+                        break;
                     legal.get((int) (Math.random() * legal.size())).take();
                     turns++;
                 }
                 totalTurns += turns;
             }
-            return (double) totalTurns / (double) samples;
+            return (double) totalTurns / samples;
         }
 
-        private double estimatePoints(SPState state) {
-            int player = state.playerTurn;
+        // Estimate points: current points + VP from best 2–3 cards + aristocrats
+        private double estimatePoints(SPState state, int player) {
             int currentPoints = state.playerPoints[player];
 
-            // best single-card points we could buy immediately
-            int bestCardPoints = 0;
-            for (SPAction action : state.getLegalActions()) {
+            // Best 3 VP cards in legal actions
+            int bestVP = 0;
+            int count = 0;
+            ArrayList<SPAction> legal = state.getLegalActions();
+            ArrayList<Integer> vpValues = new ArrayList<>();
+            for (SPAction action : legal) {
                 if (action instanceof SPBuyAction) {
                     SPCard card = ((SPBuyAction) action).card;
-                    if (card != null) bestCardPoints = Math.max(bestCardPoints, card.points);
+                    if (card != null)
+                        vpValues.add(card.points);
                 }
             }
+            vpValues.sort((a, b) -> b - a); // descending
+            for (int vp : vpValues) {
+                if (count >= 3)
+                    break;
+                bestVP += vp;
+                count++;
+            }
 
-            // unique aristocrats owned by player
+            // Aristocrat bonus
+            int aristocratBonus = 0;
             Set<String> uniqueAris = new HashSet<>();
-            ArrayList<SPCard> myAris = state.playerAristocrats.get(player);
-            for (SPCard c : myAris) {
-                if (c != null && c.isAristocrat) uniqueAris.add(c.name);
+            for (SPCard c : state.playerAristocrats.get(player)) {
+                if (c != null && c.isAristocrat)
+                    uniqueAris.add(c.name);
             }
             int n = uniqueAris.size();
-            int aristocratBonus = 0;
             if (n > 0) {
-                if (SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS != null && !SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.isEmpty()) {
-                    aristocratBonus = SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.get(Math.min(n, SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.size() - 1));
+                if (SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS != null
+                        && !SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.isEmpty()) {
+                    aristocratBonus = SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS
+                            .get(Math.min(n, SPState.UNIQUE_ARISTOCRAT_BONUS_POINTS.size() - 1));
                 } else {
-                    int[] bonusTable = {0, 1, 3, 6, 10, 15, 21, 28, 36};
+                    int[] bonusTable = { 0, 1, 3, 6, 10, 15, 21, 28, 36 };
                     aristocratBonus = bonusTable[Math.min(n, bonusTable.length - 1)];
                 }
             }
 
-            return currentPoints + bestCardPoints + aristocratBonus;
+            return currentPoints + bestVP + aristocratBonus;
+        }
+
+        // Estimate income: rubles from owned cards + top 3 buyable cards
+        private double estimateIncome(SPState state, int player) {
+            int income = 0;
+
+            // Income from current cards
+            income += state.playerWorkers.get(player).stream().mapToInt(c -> c.rubles).sum();
+            income += state.playerBuildings.get(player).stream().mapToInt(c -> c.rubles).sum();
+            income += state.playerAristocrats.get(player).stream().mapToInt(c -> c.rubles).sum();
+
+            // Potential income from top 3 affordable cards
+            int playerRubles = state.playerRubles[player];
+            ArrayList<Integer> potentialIncome = new ArrayList<>();
+            for (SPAction action : state.getLegalActions()) {
+                if (action instanceof SPBuyAction) {
+                    SPCard card = ((SPBuyAction) action).card;
+                    if (card != null && card.cost <= playerRubles) {
+                        potentialIncome.add(card.rubles);
+                    }
+                }
+            }
+            potentialIncome.sort((a, b) -> b - a); // descending
+            for (int i = 0; i < Math.min(3, potentialIncome.size()); i++) {
+                income += potentialIncome.get(i);
+            }
+
+            return income;
         }
     }
 
-    // Inside OKStateFeaturesRF1.java, after your other feature classes:
+    // Inside OKStateFeaturesRF1.java, after other feature classes
     class SPFeatureFutureRubleGain extends SPFeature {
-    public SPFeatureFutureRubleGain() {
-        super("future_ruble_gain", "sum of rubles-per-round from affordable marketplace cards");
-    }
-
-    @Override
-    public Object getValue(SPState state) {
-        int playerRubles = state.playerRubles[state.playerTurn];
-        int futureGain = 0;
-        
-        // Check Upper Card Row
-        for (SPCard card : state.upperCardRow) {
-            if (card.cost <= playerRubles) {
-                futureGain += card.rubles;
-            }
+        public SPFeatureFutureRubleGain() {
+            super("future_ruble_gain", "sum of rubles-per-round from affordable marketplace cards");
         }
 
-        // Check Lower Card Row
-        for (SPCard card : state.lowerCardRow) {
-            if (card.cost <= playerRubles) {
-                futureGain += card.rubles;
+        @Override
+        public Object getValue(SPState state) {
+            int playerRubles = state.playerRubles[state.playerTurn];
+            int futureGain = 0;
+
+            // Check Upper Card Row
+            for (SPCard card : state.upperCardRow) {
+                if (card.cost <= playerRubles) {
+                    futureGain += card.rubles;
+                }
             }
+
+            // Check Lower Card Row
+            for (SPCard card : state.lowerCardRow) {
+                if (card.cost <= playerRubles) {
+                    futureGain += card.rubles;
+                }
+            }
+
+            return futureGain;
         }
-        
-        return futureGain;
     }
-}
 
     // main for quick smoke test
     public static void main(String[] args) {
