@@ -19,6 +19,7 @@ public class SPState implements Cloneable {
 	public static final int PUB_ACTION = 4; // Special psuedo-phase for the pub decisions
 	public static final int END = 5; // End phase of the game
 	public static final int INITIAL_RUBLES = 25; // Initial rubles for each player
+	public static final int MARKET_SIZE = 8; // Total number of cards in the market (upper + lower rows)
 	public static final List<String> PHASE_NAMES = Collections.unmodifiableList(Arrays.asList("Worker", "Building", "Aristocrat", "Trading", "Pub", "End")); // Names of the phases
 	public static final List<Integer> UNIQUE_ARISTOCRAT_BONUS_POINTS = Collections.unmodifiableList(Arrays.asList(0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55)); // Bonus points for number of unique aristocrats
 	// Bonus points for number of unique aristocrats at game end
@@ -238,6 +239,7 @@ public class SPState implements Cloneable {
 		}
 	}
 
+	@SuppressWarnings("null")
 	public ArrayList<SPAction> getLegalActions() {
 		ArrayList<SPAction> legalActions = new ArrayList<>();
 		if (isGameOver()) {
@@ -264,9 +266,12 @@ public class SPState implements Cloneable {
 		}
 
 		// Determine if the player has an unused observatory
-		int numUnusedObservatories = (int) playerBuildings.get(playerTurn).stream()
+		int numUnusedObservatories = 0;
+		if (phase == BUILDING) {
+			numUnusedObservatories = (int) playerBuildings.get(playerTurn).stream()
 				.filter(observatory -> observatory.name.equals("Observatory")).count();
-		numUnusedObservatories -= usedObservatories[playerTurn]; // Subtract the number of observatories used this round
+			numUnusedObservatories -= usedObservatories[playerTurn]; // Subtract the number of observatories used this round
+		}
 
 		// If they have observed a pile, they must choose what to do with the observed card.
 		if (observedCard != null) {

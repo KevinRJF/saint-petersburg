@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SPPassAction extends SPAction {
+public class SPPassAction extends SPAction implements SPPossibleChanceAction {
 
 	SPPassAction(SPState state) {
 		super(state);
@@ -174,4 +174,57 @@ public class SPPassAction extends SPAction {
 	public String toString() {
 		return String.format("Player %d passes.", player + 1);
 	}
+
+	public boolean isChanceAction() {
+
+		// Check for end of phase
+		for (int i = 0; i < state.playerPassed.length; i++) {
+			if (i != player && !state.playerPassed[i]) {
+				return false; // another player has not passed, so this is not a chance action
+			}
+		}
+
+		if (state.phase == SPState.WORKER) { // End of worker phase
+			// The building deck isn't empty and the market isn't full.
+			if (!state.buildingDeck.isEmpty() && state.upperCardRow.size() + state.lowerCardRow.size() < SPState.MARKET_SIZE) {
+				return true; // passing will lead to a chance action of drawing from the worker deck
+			}
+		}
+		else if (state.phase == SPState.BUILDING) { // End of building phase
+			for (int i = 0; i < state.numPlayers; i++) {
+				for (SPCard card : state.playerBuildings.get(i)) {
+					// If the card is a Pub, there is a Pub pseudo-phase next.
+					if (card.name.equals("Pub")) {
+						return false; // pub action is next
+					}
+				}
+			}	
+			// No pub, check if the aristocrat deck isn't empty and the market isn't full.
+			if (!state.aristocratDeck.isEmpty() && state.upperCardRow.size() + state.lowerCardRow.size() < SPState.MARKET_SIZE) {
+				return true; // passing will lead to a chance action of drawing from the worker deck
+			}
+		}
+		else if (state.phase == SPState.ARISTOCRAT) { // End of aristocrat phase
+			// check if the trading deck isn't empty and the market isn't full.
+			if (!state.tradingDeck.isEmpty() && state.upperCardRow.size() + state.lowerCardRow.size() < SPState.MARKET_SIZE) {
+				return true; // passing will lead to a chance action of drawing from the worker deck
+			}
+		}
+		else if (state.phase == SPState.TRADING) { // End of trading phase
+				
+			// Check for end of game
+			// If any deck is empty, the game ends
+			if (state.workerDeck.isEmpty() || state.buildingDeck.isEmpty() || 
+				state.aristocratDeck.isEmpty() || state.tradingDeck.isEmpty()) {
+				return false; // game over, no chance action
+			}
+
+			// The worker deck isn't empty and the upper market row isn't full.
+			if (!state.workerDeck.isEmpty() && state.upperCardRow.size() < SPState.MARKET_SIZE) {
+				return true;
+			}
+		} 
+		return false; // passing is not a chance action
+	}
+		
 }

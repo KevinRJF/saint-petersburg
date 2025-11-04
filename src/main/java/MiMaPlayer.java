@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class MiMaPlayer extends SPPlayer{
 
-	int numSimulationsPerAction = 5000;
+	int numSimulationsPerAction = 1000; // way too slow with 5000;
     int playoutTerminationDepth = 4;
     MiMaStateFeatures features = new MiMaStateFeatures();
-    boolean verbose = false;
+    boolean verbose = false;//true;
 
     public MiMaPlayer() {
         super("MiMaPlayer");
@@ -16,6 +16,7 @@ public class MiMaPlayer extends SPPlayer{
         int bestActionIndex = -1;
         double bestValue = Double.NEGATIVE_INFINITY;
         ArrayList<SPAction> actions = state.getLegalActions();
+
         int numActions = actions.size();
         if (verbose) System.out.println("Number of legal actions: " + numActions);
         for (int i = 0; i < numActions; i++) { // for each legal action
@@ -49,6 +50,7 @@ public class MiMaPlayer extends SPPlayer{
     private double eval(SPState state) {
         return features.predict(state);
     }
+    
     
    
 }

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SPPubPointsAction extends SPAction {
+public class SPPubPointsAction extends SPAction implements SPPossibleChanceAction {
 
 	public final int points; // The number of points to purchase
 
@@ -40,4 +40,20 @@ public class SPPubPointsAction extends SPAction {
 			? String.format("Player %d opts not to use the pub.", player + 1) 
 			: String.format("Player %d buys %d point%s for %d ruble%s with the Pub.", player + 1, points, points > 1 ? "s" : "", 2 * points, 2 * points > 1 ? "s" : "");
 	}
+
+	public boolean isChanceAction() {
+
+		// If there is another player in the phase turn order with a pub, this is not a chance action.
+		int playerOffset = (state.playerTurn + state.numPlayers - state.startingPlayer[SPState.BUILDING]) % state.numPlayers;
+		for (int offset = playerOffset + 1; offset < state.numPlayers; offset++) {
+			int possibleNextPubPlayer = (state.startingPlayer[SPState.BUILDING] + offset) % state.numPlayers;
+			if (state.playerBuildings.get(possibleNextPubPlayer).stream().anyMatch(c -> c.name.equals("Pub"))) {
+				return false; // There is another player with a Pub, so this is not a chance action
+			}
+		}
+		// If the aristocrat deck is not empty and the market is not full, this is a chance action.
+		return !state.aristocratDeck.isEmpty() 
+			&& (state.upperCardRow.size() + state.lowerCardRow.size() < SPState.MARKET_SIZE);
+	}
+
 }

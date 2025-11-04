@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import smile.base.cart.SplitRule;
+import smile.classification.LogisticRegression;
 import smile.data.DataFrame;
 import smile.data.Tuple;
 import smile.data.formula.Formula;
@@ -21,14 +22,15 @@ import smile.data.vector.ValueVector;
 import smile.regression.RandomForest;
 import smile.util.IterativeAlgorithmController;
 
+
 public class MiMaStateFeatures {
 
-	String modelFilename = "MiMaRandomForest1.model";
-	RandomForest model;
+	String modelFilename = "MiMaLogistic2.model";
+	LogisticRegression.Binomial model;
     ArrayList<SPFeature> features;
-    StructType schema;
+    MiMaRoundsRemaining roundsLeft;
 
-    public ArrayList<Object> getFeatureValues(SPState state) {
+    public ArrayList<Object> getFeatureValues(MiMaState state) {
         ArrayList<Object> values = new ArrayList<>();
         for (SPFeature feature : features) {
             values.add(feature.getValue(state));
@@ -37,56 +39,73 @@ public class MiMaStateFeatures {
     }
 
     public MiMaStateFeatures() {
+    	roundsLeft = new MiMaRoundsRemaining();
+    	
         features = new ArrayList<>();
+        features.add(new MiMaFeatureRoundsRemaining());
         features.add(new MiMaFeatureMinDeckSize());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureMinDeckSize(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeaturePoints());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePoints(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePoints(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeaturePointsDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureRubles());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRubles(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRubles(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureRublesDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeaturePointsRoundGain());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsRoundGain(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsRoundGain(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeaturePointsRoundGainDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsRoundGainDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsRoundGainDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureRublesRoundGain());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesRoundGain(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesRoundGain(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureRublesRoundGainDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesRoundGainDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureRublesRoundGainDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureUniqueAristocrats());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureUniqueAristocrats(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureUniqueAristocrats(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureUniqueAristocratsDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureUniqueAristocratsDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureUniqueAristocratsDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureCardsInHand());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureCardsInHand(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureCardsInHand(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureCardsInHandDiff());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureCardsInHandDiff(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureCardsInHandDiff(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureSpotsLeft());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureSpotsLeft(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureSpotsLeft(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureOdd());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureOdd(), new MiMaFeatureMinDeckSize()));
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureOdd(), new MiMaFeatureRoundsRemaining()));
         features.add(new MiMaFeatureStartsNext());
-        features.add(new SPFeatureInteractionTerm(new MiMaFeatureStartsNext(), new MiMaFeatureMinDeckSize()));
-        
-        
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureStartsNext(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeatureAristocratBonusPotential());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureAristocratBonusPotential(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeatureTotalCardsOwned());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureTotalCardsOwned(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeatureEndgameProximity());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureEndgameProximity(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeatureMomentum());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeatureMomentum(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeaturePointsAristocratPhase());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsAristocratPhase(), new MiMaFeatureRoundsRemaining()));
+        features.add(new MiMaFeaturePointsAristocratPhaseDiff());
+        features.add(new SPFeatureInteractionTerm(new MiMaFeaturePointsAristocratPhaseDiff(), new MiMaFeatureRoundsRemaining()));
 
         initializeModel();
+        
     }
-
     
     private void initializeModel() {
         if (!java.nio.file.Files.exists(java.nio.file.Paths.get(modelFilename))) {
             System.out.println("Model file does not exist. Generating model...");
             learnModel();
-            System.out.println("IF");
+            
         }
-        try (java.io.ObjectInputStream ois = new java.io.ObjectInputStream(new java.io.FileInputStream(modelFilename))) {
-        	model = (RandomForest) ois.readObject();
-        	schema = (StructType) ois.readObject();
-        } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
+	    try (java.io.ObjectInputStream ois = new java.io.ObjectInputStream(new java.io.FileInputStream(modelFilename))) {
+	    	model = (LogisticRegression.Binomial) ois.readObject();
+	        System.out.println("Loaded existing model.");
+	        
+	    } 
+	    catch (IOException | ClassNotFoundException e) {
+	        e.printStackTrace();
+	    
         }
     }
 
@@ -133,25 +152,21 @@ public class MiMaStateFeatures {
 
 
     public void learnModel() {
-        // This method assumes that the regression model has not been created and saved yet.
+        
+    	// This method assumes that the regression model has not been created and saved yet.
         // It generates training data by simulating games and saves it to a CSV file.
-        // Then it uses random forest to learn a model and saves it to a file.
+        // Then it uses logistic regression to learn a model and saves it to a file.
 
         String trainingDataFile = "SPTrainingData.csv";
-        int numGames = 10000; // Number of games to simulate for training data
+        int numGames = 5000; // Number of games to simulate for training data
         generateCSVData(trainingDataFile, numGames);
 
         // Load the training data from the CSV file into a Smile dataset (Anh code)
         List<double[]> values = new ArrayList<>();
         List<Integer> labels = new ArrayList<>();
-        
-        List<String> headers = null;
 
         try (BufferedReader br = new BufferedReader(new FileReader(trainingDataFile))) {
             String line = br.readLine(); 
-            if (line != null) {
-            	headers = Arrays.asList(line.split(","));
-            }
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
                 double[] row = new double[parts.length - 1];
@@ -167,63 +182,28 @@ public class MiMaStateFeatures {
             e.printStackTrace();
         }
 
-        int n = values.size();
-        int p = features.size();
-        double[][] X = values.toArray(new double[n][]);
+        double[][] X = values.toArray(new double[0][]);
         int[] y = labels.stream().mapToInt(i -> i).toArray();
-        
-        List<ValueVector> vectors = new ArrayList<>();
-        
-        for (int j = 0; j < p; j++) {
-        	double[] col = getColumn (X, j);
-        	String featureName = headers.get(j);
-        	DoubleVector dv = new DoubleVector(featureName, col);
-        	vectors.add(dv);
-        }
-        
-        String labelName = headers.get(p);
-        IntVector iv = new IntVector(labelName, y);
-        vectors.add(iv);
-        
-        DataFrame df = new DataFrame(vectors.toArray(new ValueVector[0]));
-        
-        Formula formula = Formula.lhs(headers.get(p));
-        
-        int nTrees = 100;
-        int mtry = (int) p/3 ;
-        int maxDepth = 6;
-        int maxNodes = 0;
-        int nodeSize = 1;
-        double subsample = 1.0;
-        long[] seeds = new long[nTrees];
-        for (int i = 0; i < nTrees; i++) {
-            seeds[i] = 42 + i;
+
+        // Perform logistic regression using the Smile library
+        LogisticRegression.Binomial model = LogisticRegression.binomial(X, y);
+
+        // Save the model to a file using an ObjectOutputStream
+        try (java.io.ObjectOutputStream oos = new java.io.ObjectOutputStream(new java.io.FileOutputStream(modelFilename))) {
+            oos.writeObject(model);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
-        IterativeAlgorithmController<RandomForest.TrainingStatus> controller = new IterativeAlgorithmController<RandomForest.TrainingStatus>();
-        
-        this.schema = df.schema();
-     
-        
-        RandomForest.Options options = new RandomForest.Options(nTrees, mtry, maxDepth, maxNodes, nodeSize, subsample, seeds, controller);
+        // Print the model coefficients along with their feature names
+        System.out.println("Model coefficients:");
+        System.out.println(features.size() + " features");
+        System.out.println(model.coefficients().length + " coefficients");
+        System.out.printf("%.4f\tIntercept%n", model.coefficients()[0]);
+        for (int i = 0; i < model.coefficients().length - 1; i++) {
+            System.out.printf("%.4f\t%s%n", model.coefficients()[i + 1], features.get(i).getName());
+        }
 
-        model = RandomForest.fit(formula, df, options);
-        
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(modelFilename))) {
-        	oos.writeObject(model);
-        	oos.writeObject(this.schema);
-        }
-        catch (IOException e) {
-        	e.printStackTrace();
-        }
-        
-        System.out.println("Feature importances: ");
-        double[] importance = model.importance();
-        for (int i = 1; i < importance.length; i++) {
-        	System.out.printf("%s: %.4f%n", features.get(i).getName(), importance[i]);
-        }
-        
-        
         // Delete the training data file after learning the model
         java.nio.file.Path path = java.nio.file.Paths.get(trainingDataFile);
         try {
@@ -231,9 +211,7 @@ public class MiMaStateFeatures {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
-        
-       
+
     }
     
    private static double[] getColumn (double[][] X, int columnIndex) {
@@ -246,16 +224,18 @@ public class MiMaStateFeatures {
    }
     
     public double predict(SPState state) {
-        // Create a double array for the feature values
+    	
+    	// Create a double array for the feature values
         double[] featureValues = new double[features.size()];
+        
         for (int i = 0; i < features.size(); i++) {
             Object value = features.get(i).getValue(state);
             featureValues[i] = (value instanceof Number) ? ((Number) value).doubleValue() : 0.0;
         }
+
         
-        
-        Tuple tuple = Tuple.of(schema, featureValues) ;
-        return model.predict(tuple);
+        // Use the logistic regression model to predict the probability of winning
+        return model.score(featureValues);
 
     }
     
@@ -482,6 +462,90 @@ public class MiMaStateFeatures {
     		else {
     			return 1;
     		}
+    	}
+    }
+    
+ // calculate future bonus potential
+    class MiMaFeatureAristocratBonusPotential extends SPFeature {
+        public MiMaFeatureAristocratBonusPotential() {
+            super("aristocrat_bonus_potential", "potential endgame bonus from unique aristocrats");
+        }
+
+        public Object getValue(SPState state) {
+            int unique = (int) state.playerAristocrats.get(state.playerTurn).stream().distinct().count();
+            return unique * (unique + 1) / 2; // bonus formula (approx)
+        }
+    }
+    
+    // more cards = more future options
+    class MiMaFeatureTotalCardsOwned extends SPFeature {
+        public MiMaFeatureTotalCardsOwned() {
+            super("total_cards_owned", "total cards owned by the player");
+        }
+
+        public Object getValue(SPState state) {
+            return state.playerWorkers.get(state.playerTurn).size()
+                 + state.playerBuildings.get(state.playerTurn).size()
+                 + state.playerAristocrats.get(state.playerTurn).size()
+                 + state.playerHands.get(state.playerTurn).size();
+        }
+    }
+    
+    class MiMaFeatureEndgameProximity extends SPFeature {
+        public MiMaFeatureEndgameProximity() {
+            super("endgame_proximity", "inverse of total remaining deck size");
+        }
+
+        public Object getValue(SPState state) {
+            int totalDeckSize = state.workerDeck.size()
+                              + state.buildingDeck.size()
+                              + state.aristocratDeck.size()
+                              + state.tradingDeck.size();
+            return totalDeckSize;
+        }
+    }
+    
+    class MiMaFeatureMomentum extends SPFeature {
+        public MiMaFeatureMomentum() {
+            super("momentum", "points round gain compared to current points");
+        }
+
+        public Object getValue(SPState state) {
+            int currPoints = state.playerPoints[state.playerTurn];
+            int pointsPerRound = state.playerWorkers.get(state.playerTurn).stream().mapToInt(card -> card.points).sum()
+                                 + state.playerBuildings.get(state.playerTurn).stream().mapToInt(card -> card.points).sum()
+                                 + state.playerAristocrats.get(state.playerTurn).stream().mapToInt(card -> card.points).sum();
+            return currPoints > 0 ? (double) pointsPerRound / currPoints : pointsPerRound;
+        }
+    }
+    
+    class MiMaFeaturePointsAristocratPhase extends SPFeature {
+    	public MiMaFeaturePointsAristocratPhase() {
+    		super("points_aristocrat_phase", "points gained per round in the aristocrat phase");
+    	}
+    	 public Object getValue(SPState state) {
+    		 return state.playerAristocrats.get(0).stream().mapToInt(card -> card.points).sum();
+    	 }
+    }
+    
+    class MiMaFeaturePointsAristocratPhaseDiff extends SPFeature {
+    	public MiMaFeaturePointsAristocratPhaseDiff() {
+    		super("points_aristocrat_phase", "points gained per round in the aristocrat phase");
+    	}
+    	 public Object getValue(SPState state) {
+    		 return state.playerAristocrats.get(0).stream().mapToInt(card -> card.points).sum() - 
+    				state.playerAristocrats.get(1).stream().mapToInt(card -> card.points).sum();
+    	 }
+    }
+    
+    class MiMaFeatureRoundsRemaining extends SPFeature {
+    	public MiMaFeatureRoundsRemaining() {
+    		super("rounds_remaining", "how many rounds are left in the game");
+    	}
+    	
+    	public Object getValue(SPState state) {
+    		
+    		return roundsLeft.predict(state);
     	}
     }
 

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 /* Models a choice to use an observatory to draw a random card from a given deck with more than one card. */
-public class SPObserveDeckAction extends SPAction {
+public class SPObserveDeckAction extends SPAction implements SPPossibleChanceAction {
 
 	public final int deckIndex; // Index of the deck to observe
 
@@ -44,5 +44,9 @@ public class SPObserveDeckAction extends SPAction {
 			throw new IllegalArgumentException("Invalid deck index: " + deckIndex);
 		}
 		return String.format("Player %d observes %s.", player + 1, deckNames[deckIndex]);
+	}
+
+	public boolean isChanceAction() {
+		return true; // since it is illegal to observe the last card in a deck, this is always a chance action.
 	}
 }

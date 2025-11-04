@@ -1,9 +1,14 @@
 import java.util.ArrayList;
+import java.util.random.RandomGenerator;
+import java.util.random.RandomGeneratorFactory;
 
 public abstract class SPAction {
 
 	protected SPState state; // a state for which this is a legal action
 	protected int player; // The player who is taking the action
+	static RandomGenerator cardRandom = RandomGenerator.of("Xoroshiro128PlusPlus");
+	// Java's default Random uses a linear congruential generator which would have cross-correlations
+	// for sequential seeds used in MCTS for chance nodes.
 
 	// Construct an action based on a state for which it is legal
 	SPAction(SPState state) {
@@ -14,9 +19,23 @@ public abstract class SPAction {
 	// Take the action on the given state, returning the resulting state.
 	abstract public SPState take(SPState state); // assumes no deep cloning of state, returns resulting state
 	
+	// Check if this action leads to a chance event
+	public boolean isChanceAction() {
+		return this instanceof SPPossibleChanceAction && ((SPPossibleChanceAction) this).isChanceAction();
+	}
+
 	// Take the action on the state for which it is legal, returning the resulting state.
 	public SPState take() {
 		return take(state);
+	}
+
+	// Take the action given a random generator seed
+	public SPState take(long seed) {
+		RandomGenerator preservedCardRandom = cardRandom;
+		cardRandom = RandomGeneratorFactory.of("Xoroshiro128PlusPlus").create(seed);
+		SPState result = take();
+		cardRandom = preservedCardRandom;
+		return result;
 	}
 
 	// Take the action on the state for which it is legal, 
@@ -29,7 +48,7 @@ public abstract class SPAction {
 		if (deck.isEmpty()) {
 			return null; // No cards to draw
 		}
-		int index = (int) (Math.random() * deck.size());
+		int index = cardRandom.nextInt(deck.size());
 		SPCard card = deck.get(index);
 		if (index == deck.size() - 1) {
 			deck.remove(index);
@@ -42,7 +61,7 @@ public abstract class SPAction {
 	}
 
 	public void refillTopRow(ArrayList<SPCard> deck) {
-		int numCardsToDraw = 8 - state.upperCardRow.size() - state.lowerCardRow.size();
+		int numCardsToDraw = SPState.MARKET_SIZE - state.upperCardRow.size() - state.lowerCardRow.size();
 		for (int i = 0; i < numCardsToDraw && !deck.isEmpty(); i++) {
 			state.upperCardRow.add(drawRandomCard(deck));
 		}
