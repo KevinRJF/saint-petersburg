@@ -18,11 +18,9 @@ import java.util.ArrayList;
  */
 public class SPTournament {
 
-	private static final int NUM_GAMES = 99; // TODO - set the number of games per match
-	// private static final long MILLISECONDS_PER_GAME = 30000; // TODO - set the maximum milliseconds per game
+	private static final int NUM_GAMES = 3; // TODO - set the number of games per match
+	private static final long MILLISECONDS_PER_GAME = 60000; // TODO - set the maximum milliseconds per game
 	// (300000 ms/game = 300 seconds/game = 5 minutes/game)
-    // Note: We will not enforce this time limit in the first tournament, but may later as there is greater freedom 
-    // for player search modifications.
 
 	/**
 	 * Run a round-robin SaintPetersburg tournament with given hard-coded parameters noted with "TODO" comments.
@@ -34,7 +32,10 @@ public class SPTournament {
 
 		// TODO - List class names for the competing SPPlayer class file names.
 //		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "JFMTPlayer", "MaiNePlayer", "MiMaPlayer", "OKHybridPlayer"};
-		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "MaiNePlayer"};
+//		String[] playerIdentifiers = {"SPPlayerFlatMC", "AIDanSPPlayerHybridObjective", "MaiNePlayer"};
+		// String[] playerIdentifiers = {"SPPlayerFlatMC", "AiDanExpectiminimaxPlayer", "JFMTPlayer2",  "MiMaPlayer", "MaiNeNNPlayer", "OKTurnBasedFeaturesPlayer"};
+		//String[] playerIdentifiers = {"AiDanExpectiminimaxPlayer", "OKTurnBasedFeaturesPlayer"};
+		String[] playerIdentifiers = {"TWNMCTSPlayer", "SPPlayerFlatMC"};
 
 		String[] competitors = new String[playerIdentifiers.length];
 		for (int i = 0; i < playerIdentifiers.length; i++)
@@ -116,18 +117,17 @@ public class SPTournament {
 			players[1] = (SPPlayer) playerClass.getDeclaredConstructor().newInstance();
 
 			int[] scores = new int[4]; // Player 1 games won, player 2 games won, player 1 points scored, player 2 points scored
-			//long[] times = new long[2];
+			long[] times = new long[2];
 
 			for (int g = 0; g < NUM_GAMES; g++) { // best of NUM_GAMES
 				System.out.println("Game " + (g + 1) + " started");
-				//boolean ranOutClock = false;
-				//long[] playerMillisRemaining = {MILLISECONDS_PER_GAME/2L, MILLISECONDS_PER_GAME/2L};
+				long[] playerMillisRemaining = {MILLISECONDS_PER_GAME/2L, MILLISECONDS_PER_GAME/2L};
 
 				// Create a clock
-				//Stopwatch clock = new Stopwatch();
-				//long timeTaken;
+				Stopwatch clock = new Stopwatch();
+				long timeTaken;
 
-				// Create a node with a random FairKalah board initial state
+				// Create a node with a random board initial state
 				SPState node = new SPState();
 				p.println(node);
 
@@ -138,26 +138,25 @@ public class SPTournament {
 					int currentPlayer = node.playerTurn;
 
 					// Request move from current player
-					// clock.reset();
-					// clock.start();
-					move = players[node.playerTurn].getAction((SPState) node.clone()); // , playerMillisRemaining[node.player]);
-					// timeTaken = clock.stop();
+					clock.reset();
+					clock.start();
+					move = players[node.playerTurn].getAction((SPState) node.clone(), playerMillisRemaining[node.playerTurn]);
+					timeTaken = clock.stop();
 
 					// Deduct time taken
-					//playerMillisRemaining[node.playerTurn] -= timeTaken;
-					// if (playerMillisRemaining[node.playerTurn] < 0) {
-					// 	ranOutClock = true;
-					// 	if (node.playerTurn == 0) {
-					// 		p.println("Player 1 game timer expired.");
-					// 		scores[3] += 48;
-					// 		winner = "PLAYER 2 WINS";
-					// 	} else {
-					// 		p.println("Player 2 game timer expired.");
-					// 		scores[2] += 48;
-					// 		winner = "PLAYER 1 WINS";
-					// 	}
-					// 	break;
-					// }
+					playerMillisRemaining[node.playerTurn] -= timeTaken;
+					if (playerMillisRemaining[node.playerTurn] < 0) {
+						if (node.playerTurn == 0) {
+							p.println("Player 1 game timer expired.");
+							scores[3] += ((SPState) node).playerPoints[1];
+							winner = "PLAYER 2 WINS";
+						} else {
+							p.println("Player 2 game timer expired.");
+							scores[2] += ((SPState) node).playerPoints[0];
+							winner = "PLAYER 1 WINS";
+						}
+						break;
+					}
 
 					try {
 						// Update game state
@@ -190,13 +189,13 @@ public class SPTournament {
 						else
 							winner = "DRAW";
 				}
-				// p.println("Time Taken (ms): ");
-				// long t = MILLISECONDS_PER_GAME / 2L - playerMillisRemaining[GameNode.MAX];
-				// times[0] += t;
-				// p.println("Player 1: " + t);
-				// t = MILLISECONDS_PER_GAME / 2L - playerMillisRemaining[GameNode.MIN];
-				// times[1] += t;
-				// p.println("Player 2: " + t);
+				p.println("Time Taken (ms): ");
+				long t = MILLISECONDS_PER_GAME / 2L - playerMillisRemaining[0];
+				times[0] += t;
+				p.println("Player 1: " + t);
+				t = MILLISECONDS_PER_GAME / 2L - playerMillisRemaining[0];
+				times[1] += t;
+				p.println("Player 2: " + t);
 				p.println(winner);
 				if (winner.equals("PLAYER 1 WINS"))
 					scores[0]++;
