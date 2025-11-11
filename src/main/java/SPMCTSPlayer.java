@@ -8,12 +8,20 @@ public class SPMCTSPlayer extends SPPlayer { // simplified and ported from
 
     double uctC = 2.0; // UCT exploration constant
     int numChanceSamples = 10; // Number of chance samples per chance node
-    int numIterations = 20000; // Number of MCTS iterations per move
+    int numIterations = 1000000; // Number of MCTS iterations per move
     int playoutTerminationDepth = 4; // Depth at which to terminate playouts
     SPStateFeaturesLR1 features = new SPStateFeaturesLR1(); // Features for heuristic evaluation
     boolean verbose = true; // Verbosity flag
     Random chanceSeedRng = new java.util.Random(); // RNG for chance seeds
     int nodes = 0; // Node counter
+    // time management fields
+    private long startMs = UNKNOWN_TIME; // start time of move computation
+    int endEstimatePlayouts = 3; // number of playouts to estimate the
+    //  number of remaining decisions
+    double fOpening = 1.1; // bias towards opening move search
+    // Hendrik Baier and Mark H.M. Winands, "Time Management for Monte-Carlo
+    //   Tree Search in Go" (ACG 2013)
+    // see also their "Time Management for Monte-Carlo Tree Search" (2016)
 
     public SPMCTSPlayer() {
         super("SPMCTSPlayer");
@@ -84,6 +92,7 @@ public class SPMCTSPlayer extends SPPlayer { // simplified and ported from
 
     @Override
     public int getAction(SPState state) {
+        startMs = System.currentTimeMillis();
         // get the legal actions for the current state,
         // compute the number of legal actions,
         // call MCTSSearch to get the root SearchNode,
@@ -103,14 +112,64 @@ public class SPMCTSPlayer extends SPPlayer { // simplified and ported from
     }
 
     public SearchNode MCTSSearch(SPState rootState) { // UCT_SEARCH
+        long turnSearchTimeMillis = 1000L; // default fixed time per move
+        if (timeRemainingMillis != UNKNOWN_TIME) {
+            // Estimate the number of decisions remaining (including this)
+            // For this we do a specified number of playouts, count the
+            //   current player decisions, and average.
+            int currentPlayer = rootState.playerTurn;
+            int totalDecisions = 0;
+            for (int p = 0; p < endEstimatePlayouts; p++) {
+                SPState simState = rootState.clone();
+                while (!simState.isGameOver()) {
+                    if (simState.playerTurn == currentPlayer) {
+                        totalDecisions++;
+                    }
+                    ArrayList<SPAction> legalActions = simState.getLegalActions();
+                    int actionIndex = (int) (Math.random() * legalActions.size());
+                    SPAction action = legalActions.get(actionIndex);
+                    simState = action.take();
+                }
+            }
+            double movesExpected = (double) totalDecisions / endEstimatePlayouts;
+            if (verbose) { // print the estimated number of decisions remaining
+                System.out.printf("Estimated decisions remaining: %.2f\n", movesExpected);
+            }
+            // Allocate time for this move
+            turnSearchTimeMillis = (long) (fOpening * timeRemainingMillis / movesExpected);
+            // Ensure that the move time is not more than a 20th of the remaining time
+            turnSearchTimeMillis = Math.min(turnSearchTimeMillis, 
+                timeRemainingMillis / 20L);
+        }
+        // Define variables to support periodic checking of the clock
+        int numBlockIterations = 100; // check time every 100 iterations
+        long lastIterationBlockMillis = UNKNOWN_TIME; // time since last check
+        long blockStartMillis = System.currentTimeMillis();
+
         SearchNode rootNode = new SearchNode(0, rootState.playerTurn);
         expand(rootNode, rootState);
         nodes = 1; // reset node counter
-        long startMillis = System.currentTimeMillis();
+        startMs = System.currentTimeMillis();
 
         List<SearchNode> path = new ArrayList<>(); // store sequence of
                                                 // SearchNodes visited
         for (int iter = 0; iter < numIterations; iter++) { // MCTS loop
+            // Check elapsed time every numBlockIterations
+            if ((iter + 1) % numBlockIterations == 0) {
+                long currentMillis = System.currentTimeMillis();
+                lastIterationBlockMillis = currentMillis - blockStartMillis;
+                long elapsedMillis = currentMillis - startMs;
+                // If another block of the same duration would exceed
+                // the allocated time, break
+                if (elapsedMillis + lastIterationBlockMillis > turnSearchTimeMillis) {
+                    if (verbose) {
+                        System.out.printf("MCTS terminating at iteration %d due to time limit.\n", iter + 1);
+                    }
+                    break;
+                }
+                blockStartMillis = currentMillis;
+            }
+
             SPState state = rootState.clone();
             path.clear();
             SearchNode node = rootNode;
@@ -208,7 +267,7 @@ public class SPMCTSPlayer extends SPPlayer { // simplified and ported from
         long endMillis = System.currentTimeMillis();
         if (verbose) {
             System.out.printf("MCTS completed in %d ms, %d nodes created.\n",
-                    (endMillis - startMillis), nodes);
+                    (endMillis - startMs), nodes);
             // Print the root node and its children as well as the selected best child
             System.out.println("Root Node:\n" + rootNode.toString());
             System.out.println("Children:\n" + rootNode.childrenStr(rootNode.exploreCount, uctC));
