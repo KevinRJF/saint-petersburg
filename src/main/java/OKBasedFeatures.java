@@ -1,36 +1,42 @@
 import java.io.BufferedReader;
-import java.io.FileOutputStream;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
-// Imports for the modern Smile library (v2.0+)
-import smile.data.DataFrame;
-import smile.data.Tuple;
-import smile.data.formula.Formula;
-import smile.data.type.StructType;
-import smile.data.vector.DoubleVector;
-import smile.data.vector.IntVector;
-import smile.data.vector.ValueVector;
-import smile.regression.RandomForest;
+// DL4J / ND4J imports (neural network)
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
+import org.deeplearning4j.util.ModelSerializer;
+import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
+import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
+import org.deeplearning4j.nn.conf.layers.DenseLayer;
+import org.deeplearning4j.nn.conf.layers.OutputLayer;
+import org.deeplearning4j.nn.weights.WeightInit;
+import org.nd4j.linalg.activations.Activation;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.dataset.DataSet;
+import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
+import org.nd4j.linalg.dataset.api.preprocessor.DataNormalization;
+import org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize;
+import org.nd4j.linalg.factory.Nd4j;
+import org.nd4j.linalg.learning.config.Adam;
+import org.nd4j.linalg.lossfunctions.LossFunctions;
+import org.deeplearning4j.datasets.iterator.utilty.ListDataSetIterator;
+import org.deeplearning4j.earlystopping.scorecalc.DataSetLossCalculator;
 
 public class OKBasedFeatures {
 
-    String modelFilename = "OKBasedModel.model";
-    RandomForest model;
+    String modelFilename = "OKNN.model";
     ArrayList<SPFeature> features;
-    StructType schema;
+    private MultiLayerNetwork model;
 
     public OKBasedFeatures() {
         features = new ArrayList<>();
-        
+
         // --- Complete Feature List ---
         features.add(new MyFeatureMinDeckSize());
         features.add(new MyFeaturePoints());
@@ -61,7 +67,7 @@ public class OKBasedFeatures {
         features.add(new SPFeatureInteractionTerm(new MyFeatureSpotsLeft(), new MyFeatureMinDeckSize()));
         features.add(new MyFeatureStartsNext());
         features.add(new SPFeatureInteractionTerm(new MyFeatureStartsNext(), new MyFeatureMinDeckSize()));
-        
+
         // --- Added Features from OKStateFeaturesLR1 ---
         features.add(new MyFeatureAristocratBonus());
         features.add(new SPFeatureInteractionTerm(new MyFeatureAristocratBonus(), new MyFeatureMinDeckSize()));
@@ -69,119 +75,25 @@ public class OKBasedFeatures {
         features.add(new SPFeatureInteractionTerm(new MyFeatureFutureRubleGain(), new MyFeatureMinDeckSize()));
         features.add(new MyFeatureROI());
         features.add(new SPFeatureInteractionTerm(new MyFeatureROI(), new MyFeatureMinDeckSize()));
-        
+
         initializeModel();
     }
-    
-    /**
-     * Loads the model from the file, or trains a new one if it doesn't exist.
-     */
+
     private void initializeModel() {
         if (!java.nio.file.Files.exists(java.nio.file.Paths.get(modelFilename))) {
-            System.out.println("Model file '" + modelFilename + "' does not exist. Generating a new model...");
+            System.out.println("Model file does not exist. Generating model...");
             learnModel();
         }
-        try (java.io.ObjectInputStream ois = new java.io.ObjectInputStream(new java.io.FileInputStream(modelFilename))) {
-            model = (RandomForest) ois.readObject();
-            schema = (StructType) ois.readObject();
-            System.out.println("Successfully loaded model from '" + modelFilename + "'.");
-        } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 
-    /**
-     * Generates training data by simulating games and writing the feature values to a CSV file.
-     * Trains on data from SPPlayerFlatMC for a more robust model.
-     */
-    public void generateCSVData(String filename, int numGames) {
-        System.out.println("Generating training data from " + numGames + " simulated games...");
-        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-            writer.println(getCSVHeader());
-            for (int i = 0; i < numGames; i++) {
-                // Train on data from the professor's AI for higher quality data
-                SPGameTranscript transcript = SPSimulateGame.simulateGame(new SPPlayerFlatMC(), new SPPlayerFlatMC());
-                writer.print(getCSVRows(transcript));
-                if ((i + 1) % 1000 == 0) {
-                    System.out.println("...simulated " + (i + 1) + " games.");
-                }
-            }
+        try {
+            model = ModelSerializer.restoreMultiLayerNetwork(new java.io.File(modelFilename));
+            System.out.println("Model loaded from " + modelFilename);
+            System.out.println(model.summary());
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Finished generating training data.");
     }
 
-    /**
-     * Trains a new RandomForest model on the generated data and saves it to a file.
-     */
-    public void learnModel() {
-        String trainingDataFile = "SPTrainingData.csv";
-        int numGames = 10000;
-        generateCSVData(trainingDataFile, numGames);
-
-        System.out.println("Reading data and training RandomForest model...");
-        try {
-            List<String> headers = null;
-            List<double[]> values = new ArrayList<>();
-            List<Integer> labels = new ArrayList<>();
-            
-            try (BufferedReader br = new BufferedReader(new FileReader(trainingDataFile))) {
-                String line = br.readLine(); 
-                if (line != null) headers = Arrays.asList(line.split(","));
-                while ((line = br.readLine()) != null) {
-                    String[] parts = line.split(",");
-                    double[] row = new double[parts.length - 1];
-                    for (int i = 0; i < row.length; i++) row[i] = Double.parseDouble(parts[i]);
-                    values.add(row);
-                    labels.add(Integer.parseInt(parts[parts.length - 1]));
-                }
-            }
-
-            int p = features.size();
-            double[][] X = values.toArray(new double[0][]);
-            int[] y = labels.stream().mapToInt(i -> i).toArray();
-            
-            List<ValueVector> vectors = new ArrayList<>();
-            for (int j = 0; j < p; j++) {
-                double[] col = getColumn(X, j);
-                vectors.add(DoubleVector.of(headers.get(j), col));
-            }
-            vectors.add(IntVector.of(headers.get(p), y));
-            
-            DataFrame df = DataFrame.of(vectors.toArray(new ValueVector[0]));
-            this.schema = df.schema();
-            
-            Formula formula = Formula.lhs(headers.get(p));
-            int nTrees = 200, maxDepth = 10, mtry = (int) Math.sqrt(p);
-            model = RandomForest.fit(formula, df, nTrees, mtry, maxDepth);
-
-            try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(modelFilename))) {
-                oos.writeObject(model);
-                oos.writeObject(this.schema);
-            }
-            System.out.println("Successfully trained and saved new model to '" + modelFilename + "'.");
-            java.nio.file.Files.delete(java.nio.file.Paths.get(trainingDataFile));
-        } catch (Exception e) { e.printStackTrace(); }
-    }
-    
-    /**
-     * Uses the trained RandomForest model to predict the win probability for a given state.
-     */
-    public double predict(SPState state) {
-        if (schema == null) {
-             throw new IllegalStateException("Model schema is not initialized. Make sure the model has been trained or loaded.");
-        }
-        double[] featureValues = new double[features.size()];
-        for (int i = 0; i < features.size(); i++) {
-            Object value = features.get(i).getValue(state);
-            featureValues[i] = (value instanceof Number) ? ((Number) value).doubleValue() : 0.0;
-        }
-        Tuple tuple = Tuple.of(featureValues, schema.fields());
-        return model.predict(tuple);
-    }
-    
-    // --- Helper Methods for Data Handling ---
     public String getCSVHeader() {
         StringBuilder header = new StringBuilder();
         for (SPFeature feature : features) {
@@ -191,22 +103,9 @@ public class OKBasedFeatures {
         return header.toString();
     }
 
-    public String getCSVRows(SPGameTranscript transcript) {
-        StringBuilder rows = new StringBuilder();
-        boolean[] isWinner = transcript.getWinners();
-        List<SPState> states = transcript.getStates();
-        for(SPState state : states){
-             rows.append(getCSVRow(state, isWinner)).append("\n");
-        }
-        return rows.toString();
-    }
-
     public String getCSVRow(SPState state, boolean[] isWinner) {
-        int player = state.playerTurn;
-        if (state.isGameOver()) {
-            player = (state.playerTurn + state.numPlayers - 1) % state.numPlayers; // Last player to move
-        }
-        int winnerVal = isWinner[player] ? 1 : 0;
+        int currentPlayerIndex = state.playerTurn;
+        int winnerVal = isWinner[currentPlayerIndex] ? 1 : 0;
         StringBuilder row = new StringBuilder();
         for (SPFeature feature : features) {
             row.append(feature.getValue(state)).append(",");
@@ -214,19 +113,126 @@ public class OKBasedFeatures {
         row.append(winnerVal);
         return row.toString();
     }
-    
-    private static double[] getColumn(double[][] matrix, int columnIndex) {
-       double[] column = new double[matrix.length];
-       for(int i = 0; i < matrix.length; i++){
-          column[i] = matrix[i][columnIndex];
-       }
-       return column;
+
+    public String getCSVRows(SPGameTranscript transcript) {
+        StringBuilder rows = new StringBuilder();
+        boolean[] isWinner = transcript.getWinners();
+        for (SPState state : transcript.getStates()) {
+            rows.append(getCSVRow(state, isWinner)).append("\n");
+        }
+        return rows.toString();
     }
-    
-    // --- Main method to easily trigger the training process ---
-    public static void main(String[] args) {
-        // Running this file will automatically create and train the model if it doesn't exist.
-        new MyRFStateFeatures();
+
+    public void generateCSVData(String filename, int numGames) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+            writer.println(getCSVHeader());
+            for (int i = 0; i < numGames; i++) {
+                System.out.println(i);
+                SPGameTranscript transcript = SPSimulateGame.simulateGame(new OKTurnBasedFeaturesPlayer(), new OKTurnBasedFeaturesPlayer());
+                writer.print(getCSVRows(transcript));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void learnModel() {
+        String trainingDataFile = "SPTrainingDataNN.csv";
+        int numGames = 200;
+        generateCSVData(trainingDataFile, numGames);
+
+        List<double[]> values = new ArrayList<>();
+        List<Integer> intLabels = new ArrayList<>();
+
+        try (BufferedReader br = new BufferedReader(new FileReader(trainingDataFile))) {
+            String line = br.readLine(); // header
+            while ((line = br.readLine()) != null) {
+                String[] parts = line.split(",");
+                double[] row = new double[parts.length - 1];
+                for (int i = 0; i < row.length; i++) {
+                    row[i] = Double.parseDouble(parts[i]);
+                }
+                values.add(row);
+                intLabels.add(Integer.parseInt(parts[parts.length - 1]));
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        double[][] X = values.toArray(new double[0][]);
+        int[] y = intLabels.stream().mapToInt(i -> i).toArray();
+
+        int nSamples = X.length;
+        int nFeatures = (nSamples == 0 ? 0 : X[0].length);
+        if (nSamples == 0 || nFeatures == 0 || y.length != nSamples) {
+            throw new IllegalArgumentException("Bad shapes: X=" + nSamples + "x" + nFeatures + ", y.length=" + y.length);
+        }
+
+        INDArray featuresArr = Nd4j.createFromArray(X).castTo(Nd4j.defaultFloatingPointType());
+        INDArray labelsArr = Nd4j.createFromArray(y).reshape(nSamples, 1).castTo(featuresArr.dataType());
+
+        DataSet all = new DataSet(featuresArr, labelsArr);
+        all.shuffle(123);
+        int batchSize = Math.min(128, nSamples);
+        DataSetIterator trainIter = new ListDataSetIterator<>(all.asList(), batchSize);
+
+        int nHidden = Math.max(16, nFeatures * 2);
+        long seed = 123;
+        MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
+                .seed(seed)
+                .weightInit(WeightInit.XAVIER)
+                .updater(new Adam(1e-3))
+                .l2(1e-4)
+                .list()
+                .layer(new DenseLayer.Builder().nIn(nFeatures).nOut(nHidden).activation(Activation.SIGMOID).build())
+                .layer(new OutputLayer.Builder(LossFunctions.LossFunction.XENT).nIn(nHidden).nOut(1).activation(Activation.SIGMOID).build())
+                .build();
+
+        model = new MultiLayerNetwork(conf);
+        model.init();
+
+        int epochs = 20;
+        int validationSize = Math.max(1, nSamples / 10);
+        DataSetIterator valIter = new ListDataSetIterator<>(all.asList().subList(0, validationSize), validationSize);
+
+        for (int i = 0; i < epochs; i++) {
+            trainIter.reset();
+            model.fit(trainIter);
+            double trainLoss = new DataSetLossCalculator(trainIter, true).calculateScore(model);
+            double valLoss = new DataSetLossCalculator(valIter, true).calculateScore(model);
+            System.out.printf("epoch %d  trainLoss=%.5f  valLoss=%.5f%n", model.getEpochCount(), trainLoss, valLoss);
+        }
+
+        try {
+            ModelSerializer.writeModel(model, new java.io.File(modelFilename), true);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            java.nio.file.Files.delete(java.nio.file.Paths.get(trainingDataFile));
+        } catch (IOException e) {
+            // ignore
+        }
+    }
+
+    public double predict(SPState state) {
+        double[] featureValues = new double[features.size()];
+        for (int i = 0; i < features.size(); i++) {
+            Object value = features.get(i).getValue(state);
+            featureValues[i] = (value instanceof Number) ? ((Number) value).doubleValue() : 0.0;
+        }
+
+        INDArray input = Nd4j.createFromArray(new double[][] {featureValues}).castTo(Nd4j.defaultFloatingPointType());
+        if (model == null) {
+            // fallback heuristic: average normalized features
+            double sum = 0.0;
+            for (double v : featureValues) sum += v;
+            return 1.0 / (1.0 + Math.exp(- (sum / Math.max(1, featureValues.length))));
+        }
+        return model.output(input, false).getDouble(0);
     }
 
     // ===================================================================================

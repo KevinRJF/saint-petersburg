@@ -7,9 +7,8 @@ public class OKBasedPlayer extends SPPlayer {
     private final boolean verbose = true;
     
     // --- THIS IS THE KEY CHANGE ---
-    // We are swapping the "brain" from the Logistic Regression model
-    // to our more powerful RandomForest model.
-    MyRFStateFeatures features = new MyRFStateFeatures();
+    // Use a neural-network-based evaluator implemented in OKBasedFeatures
+    OKBasedFeatures features = new OKBasedFeatures();
 
     public OKBasedPlayer() {
         super("OKBasedPlayer");
