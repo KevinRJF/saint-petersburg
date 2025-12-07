@@ -1,0 +1,57 @@
+=== Card Balance Report (10000000 Simulations) ===
+Total Games Run: 10000000
+Player 0 Win Rate: 49.98%
+Player 1 Win Rate: 50.02%
+-----------------------------------------------------------------------------------
+Card Name                  | Total Purchases | Purchased by Winner | Win Rate (When Purchased) | Conclusion
+-----------------------------------------------------------------------------------
+Lumberjack (3)             | 449214          | 222037              | 49.43                   % | BALANCED
+Gold Miner (4)             | 450368          | 221946              | 49.28                   % | BALANCED
+Shepherd (5)               | 449614          | 221556              | 49.28                   % | BALANCED
+Fur Trapper (6)            | 449996          | 221741              | 49.28                   % | BALANCED
+Ship Builder (7)           | 449774          | 222239              | 49.41                   % | BALANCED
+Czar and Carpenter (8)     | 450793          | 222534              | 49.37                   % | BALANCED
+Market (5)                 | 449779          | 221692              | 49.29                   % | BALANCED
+Customs House (8)          | 450864          | 222860              | 49.43                   % | BALANCED
+Firehouse (11)             | 448243          | 221386              | 49.39                   % | BALANCED
+Hospital (14)              | 449551          | 222017              | 49.39                   % | BALANCED
+Library (17)               | 450585          | 222488              | 49.38                   % | BALANCED
+Theater (20)               | 449622          | 221712              | 49.31                   % | BALANCED
+Academy (23)               | 450121          | 222035              | 49.33                   % | BALANCED
+Potjomkin's Village (2)    | 450089          | 222237              | 49.38                   % | BALANCED
+Pub (1)                    | 449898          | 222321              | 49.42                   % | BALANCED
+Warehouse (2)              | 450245          | 221511              | 49.20                   % | BALANCED
+Observatory (6)            | 449648          | 221781              | 49.32                   % | BALANCED
+Author (4)                 | 448846          | 220829              | 49.20                   % | BALANCED
+Administrator (7)          | 449477          | 221545              | 49.29                   % | BALANCED
+Warehouse Manager (10)     | 449788          | 221536              | 49.25                   % | BALANCED
+Secretary (12)             | 450114          | 221937              | 49.31                   % | BALANCED
+Controller (14)            | 449527          | 222088              | 49.40                   % | BALANCED
+Judge (16)                 | 449588          | 221982              | 49.37                   % | BALANCED
+Mistress of Ceremonies (18) | 2400076         | 2262336             | 94.26                   % | OVERPOWERED (Suggest Nerf)
+Carpenter Workshop (4)     | 449223          | 221494              | 49.31                   % | BALANCED
+Gold Smelter (6)           | 450282          | 222549              | 49.42                   % | BALANCED
+Weaving Mill (8)           | 449291          | 221651              | 49.33                   % | BALANCED
+Fur Shop (10)              | 450051          | 222619              | 49.47                   % | BALANCED
+Wharf (12)                 | 450635          | 221881              | 49.24                   % | BALANCED
+Mariinskij-Theater (10)    | 448273          | 221082              | 49.32                   % | BALANCED
+Bank (13)                  | 449621          | 221442              | 49.25                   % | BALANCED
+Peterhof (14)              | 450616          | 222083              | 49.28                   % | BALANCED
+St. Isaac's Cathedral (15) | 449563          | 221491              | 49.27                   % | BALANCED
+Harbor (16)                | 450390          | 221842              | 49.26                   % | BALANCED
+Church of the Resurrection of Jesus Christ (16) | 450672          | 222349              | 49.34                   % | BALANCED
+Catherine the Great Palace (17) | 450387          | 222328              | 49.36                   % | BALANCED
+Smolny Cathedral (17)      | 450365          | 222067              | 49.31                   % | BALANCED
+Hermitage (18)             | 450892          | 223042              | 49.47                   % | BALANCED
+Winter Palace (19)         | 450834          | 222138              | 49.27                   % | BALANCED
+Pope (6)                   | 452082          | 223020              | 49.33                   % | BALANCED
+Chamber Maid (8)           | 449298          | 221370              | 49.27                   % | BALANCED
+Weapon Master (8)          | 450497          | 222410              | 49.37                   % | BALANCED
+Builder (10)               | 449911          | 221053              | 49.13                   % | BALANCED
+Senator (12)               | 449217          | 221638              | 49.34                   % | BALANCED
+Patriarch (14)             | 451755          | 223276              | 49.42                   % | BALANCED
+Tax Man (16)               | 448766          | 221001              | 49.25                   % | BALANCED
+Admiral (18)               | 449364          | 221541              | 49.30                   % | BALANCED
+Minister of Foreign Affairs (20) | 450873          | 222704              | 49.39                   % | BALANCED
+Czar (24)                  | 450157          | 221833              | 49.28                   % | BALANCED
+-----------------------------------------------------------------------------------
