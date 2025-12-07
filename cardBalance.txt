@@ -1,57 +1,59 @@
 === Saint Petersburg Card Balance Report ===
-Games Simulated: 998
+Games Simulated: 1000
 Player 0 Win Rate: 50.6%
 Player 1 Win Rate: 49.4%
 -----------------------------------------------------------------------------------------------------
 Card Name                  | Seen  | Purchased | Wins w/ Purchase | Win Rate | Recommendation
 -----------------------------------------------------------------------------------------------------
-Lumberjack                 | 1000  | 4435      | 2579              | 58.15    | OVERPOWERED (NERF)
-Gold Miner                 | 1000  | 4469      | 2454              | 54.91    | OVERPOWERED (NERF)
-Shepherd                   | 999   | 4371      | 2480              | 56.74    | OVERPOWERED (NERF)
-Fur Trapper                | 999   | 4155      | 2237              | 53.84    | OVERPOWERED (NERF)
-Ship Builder               | 998   | 3924      | 2092              | 53.31    | OVERPOWERED (NERF)
-Czar and Carpenter         | 767   | 581       | 323               | 55.59    | OVERPOWERED (NERF)
+Lumberjack                 | 1000  | 4435      | 2579              | 58.15    | STRONG
+Gold Miner                 | 1000  | 4469      | 2454              | 54.91    | BALANCED
+Shepherd                   | 999   | 4371      | 2480              | 56.74    | BALANCED
+Fur Trapper                | 999   | 4155      | 2237              | 53.84    | BALANCED
+Ship Builder               | 998   | 3924      | 2092              | 53.31    | BALANCED
+Czar and Carpenter         | 767   | 581       | 323               | 55.59    | BALANCED
 Market                     | 959   | 2345      | 1179              | 50.28    | BALANCED
 Customs House              | 964   | 2073      | 1097              | 52.92    | BALANCED
-Firehouse                  | 859   | 1046      | 607               | 58.03    | OVERPOWERED (NERF)
-Hospital                   | 873   | 908       | 522               | 57.49    | OVERPOWERED (NERF)
-Library                    | 869   | 759       | 434               | 57.18    | OVERPOWERED (NERF)
-Theater                    | 757   | 425       | 257               | 60.47    | OVERPOWERED (NERF)
-Academy                    | 496   | 156       | 104               | 66.67    | OVERPOWERED (NERF)
-Potjomkin's Village        | 500   | 481       | 239               | 49.69    | UNDERPOWERED (BUFF)
-Pub                        | 762   | 993       | 442               | 44.51    | UNDERPOWERED (BUFF)
-Warehouse                  | 515   | 494       | 192               | 38.87    | UNDERPOWERED (BUFF)
-Observatory                | 727   | 837       | 372               | 44.44    | UNDERPOWERED (BUFF)
-Author                     | 1000  | 5717      | 3074              | 53.77    | OVERPOWERED (NERF)
-Administrator              | 1000  | 3888      | 2156              | 55.45    | OVERPOWERED (NERF)
-Warehouse Manager          | 1000  | 2891      | 1655              | 57.25    | OVERPOWERED (NERF)
-Secretary                  | 1000  | 1861      | 1125              | 60.45    | OVERPOWERED (NERF)
-Controller                 | 1000  | 1208      | 766               | 63.41    | OVERPOWERED (NERF)
-Judge                      | 1000  | 700       | 470               | 67.14    | OVERPOWERED (NERF)
-Mistress of Ceremonies     | 1000  | 579       | 421               | 72.71    | OVERPOWERED (NERF)
+Firehouse                  | 859   | 1046      | 607               | 58.03    | STRONG
+Hospital                   | 873   | 908       | 522               | 57.49    | BALANCED
+Library                    | 869   | 759       | 434               | 57.18    | BALANCED
+Theater                    | 757   | 425       | 257               | 60.47    | STRONG
+Academy                    | 496   | 156       | 104               | 66.67    | VERY STRONG
+Potjomkin's Village        | 500   | 481       | 239               | 49.69    | BALANCED
+Pub                        | 762   | 993       | 442               | 44.51    | WEAK
+Warehouse                  | 956   | 1024      | 565               | 55.17    | BALANCED
+Observatory                | 727   | 837       | 543               | 64.87    | STRONG
+Author                     | 1000  | 5717      | 3074              | 53.77    | BALANCED
+Administrator              | 1000  | 3888      | 2156              | 55.45    | BALANCED
+Warehouse Manager          | 1000  | 2891      | 1655              | 57.25    | BALANCED
+Secretary                  | 1000  | 1861      | 1125              | 60.45    | STRONG
+Controller                 | 1000  | 1208      | 766               | 63.41    | VERY STRONG
+Judge                      | 1000  | 700       | 470               | 67.14    | VERY STRONG (Nerf)
+Mistress of Ceremonies     | 1000  | 579       | 421               | 72.71    | VERY STRONG (Nerf)
 Carpenter Workshop         | 470   | 370       | 193               | 52.16    | BALANCED
 Gold Smelter               | 499   | 386       | 194               | 50.26    | BALANCED
-Weaving Mill               | 692   | 696       | 392               | 56.32    | OVERPOWERED (NERF)
-Fur Shop                   | 821   | 939       | 510               | 54.31    | OVERPOWERED (NERF)
-Wharf                      | 804   | 842       | 448               | 53.21    | OVERPOWERED (NERF)
+Weaving Mill               | 692   | 696       | 392               | 56.32    | BALANCED
+Fur Shop                   | 821   | 939       | 510               | 54.31    | BALANCED
+Wharf                      | 804   | 842       | 448               | 53.21    | BALANCED
 Mariinskij-Theater         | 475   | 412       | 215               | 52.18    | BALANCED
-Bank                       | 474   | 411       | 244               | 59.37    | OVERPOWERED (NERF)
-Peterhof                   | 443   | 357       | 198               | 55.46    | OVERPOWERED (NERF)
-St. Isaac's Cathedral      | 458   | 362       | 200               | 55.25    | OVERPOWERED (NERF)
+Bank                       | 474   | 411       | 244               | 59.37    | STRONG
+Peterhof                   | 443   | 357       | 198               | 55.46    | BALANCED
+St. Isaac's Cathedral      | 458   | 362       | 200               | 55.25    | BALANCED
 Harbor                     | 465   | 355       | 187               | 52.68    | BALANCED
-Church of the Resurrection of Jesus Christ | 469   | 342       | 198               | 57.89    | OVERPOWERED (NERF)
-Catherine the Great Palace | 480   | 319       | 180               | 56.43    | OVERPOWERED (NERF)
-Smolny Cathedral           | 428   | 301       | 171               | 56.81    | OVERPOWERED (NERF)
-Hermitage                  | 453   | 294       | 162               | 55.10    | OVERPOWERED (NERF)
-Winter Palace              | 472   | 287       | 188               | 65.51    | OVERPOWERED (NERF)
+Church of the Resurrection of Jesus Christ | 469 | 342 | 198 | 57.89 | BALANCED
+Catherine the Great Palace | 480   | 319       | 180               | 56.43    | BALANCED
+Smolny Cathedral           | 428   | 301       | 171               | 56.81    | BALANCED
+Hermitage                  | 453   | 294       | 162               | 55.10    | BALANCED
+Winter Palace              | 472   | 287       | 188               | 65.51    | VERY STRONG
 Pope                       | 482   | 442       | 228               | 51.58    | BALANCED
-Chamber Maid               | 480   | 457       | 255               | 55.80    | OVERPOWERED (NERF)
-Weapon Master              | 498   | 441       | 251               | 56.92    | OVERPOWERED (NERF)
-Builder                    | 474   | 435       | 255               | 58.62    | OVERPOWERED (NERF)
-Senator                    | 495   | 399       | 240               | 60.15    | OVERPOWERED (NERF)
-Patriarch                  | 467   | 335       | 224               | 66.87    | OVERPOWERED (NERF)
-Tax Man                    | 463   | 305       | 174               | 57.05    | OVERPOWERED (NERF)
-Admiral                    | 474   | 307       | 207               | 67.43    | OVERPOWERED (NERF)
-Minister of Foreign Affairs | 482   | 279       | 178               | 63.80    | OVERPOWERED (NERF)
-Czar                       | 475   | 238       | 154               | 64.71    | OVERPOWERED (NERF)
+Chamber Maid               | 480   | 457       | 255               | 55.80    | BALANCED
+Weapon Master              | 498   | 441       | 251               | 56.92    | BALANCED
+Builder                    | 474   | 435       | 255               | 58.62    | STRONG
+Senator                    | 495   | 399       | 240               | 60.15    | STRONG
+Patriarch                  | 467   | 335       | 224               | 66.87    | VERY STRONG (Minor Nerf?)
+Tax Man                    | 463   | 305       | 174               | 57.05    | BALANCED
+Admiral                    | 474   | 307       | 207               | 67.43    | VERY STRONG (Minor Nerf?)
+Minister of Foreign Affairs | 482  | 279       | 178               | 63.80    | VERY STRONG
+Czar                       | 475   | 238       | 154               | 64.71    | VERY STRONG
 -----------------------------------------------------------------------------------------------------
+
+Due 
